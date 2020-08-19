@@ -1,7 +1,7 @@
 /*
  * @Author: mj
  * @Date: 2020-08-14 10:41:32
- * @LastEditTime: 2020-08-19 11:46:14
+ * @LastEditTime: 2020-08-19 11:49:55
  * @LastEditors: Please set LastEditors
  * @Description: 一个支持控制台I/O的monad
  * @FilePath: /iomonad/src/main/scala/iomonad/Console.scala
@@ -131,7 +131,7 @@ object ConsoleState{
     }
   }
   implicit class PrintLineS(p:PrintLine) {
-    def toState = ConsoleState { bufs => ((), bufs.copy(out = bufs.out :+ p.line)) } // append to the output
+    def toState = ConsoleState { bufs => ((), bufs.copy(out = bufs.out :+ p.line)) } 
 
   }
   implicit val stateMonad:Monad[ConsoleState] = new Monad[ConsoleState]{
