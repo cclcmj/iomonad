@@ -20,5 +20,5 @@ object Main extends App {
   //   _ <- Console.printLn(r.getOrElse("error"))
   // } yield ()
   // Console.runConsole(Monad.freeMonad.forever(c))
-  ConsoleReader.runConsoleReader(Monad.freeMonad.forever(c)).run("a")
+  // ConsoleReader.runConsoleReader(Monad.freeMonad.forever(c)).run("a")
 }

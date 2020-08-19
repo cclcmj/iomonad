@@ -1307,3 +1307,5 @@ INFO: Unsupported notification method: $/setTraceNotification
 2020.08.19 10:53:23 INFO  time: compiled iomonad in 1.43s
 2020.08.19 10:53:25 INFO  compiling iomonad (1 scala source)
 2020.08.19 10:53:25 INFO  time: compiled iomonad in 0.53s
+Aug 19, 2020 10:53:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
