@@ -1,7 +1,7 @@
 /*
  * @Author: mj
  * @Date: 2020-08-14 10:41:32
- * @LastEditTime: 2020-08-19 11:39:41
+ * @LastEditTime: 2020-08-19 11:46:14
  * @LastEditors: Please set LastEditors
  * @Description: 一个支持控制台I/O的monad
  * @FilePath: /iomonad/src/main/scala/iomonad/Console.scala
@@ -103,7 +103,18 @@ object ConsoleReader {
  * 当解释器遇到一个ReadLine时，可以从输入缓存中弹出一个元素，当遇到一个PrintLine时，可以向输出缓存中压入一个元素
  */
 case class Buffers(in: List[String],out:List[String])
-case class ConsoleState[A](run: Buffers => (A,Buffers)){}
+case class ConsoleState[A](run: Buffers => (A,Buffers)){
+  def map[B](f: A => B): ConsoleState[B] =
+      ConsoleState { s =>
+        val (a, s1) = run(s)
+        (f(a), s1)
+      }
+    def flatMap[B](f: A => ConsoleState[B]): ConsoleState[B] =
+      ConsoleState { s =>
+        val (a, s1) = run(s)
+        f(a).run(s1)
+      }
+}
 object ConsoleState{
   import Free._
   import Translate._
@@ -124,8 +135,8 @@ object ConsoleState{
 
   }
   implicit val stateMonad:Monad[ConsoleState] = new Monad[ConsoleState]{
-    def unit[A](a: => A): ConsoleState[A] = ???
-    def flatMap[A, B](fa: ConsoleState[A])(f: A => ConsoleState[B]): ConsoleState[B] = ???
+    def unit[A](a: => A): ConsoleState[A] = ConsoleState(bufs => (a,bufs))
+    def flatMap[A, B](ra: ConsoleState[A])(f: A => ConsoleState[B]): ConsoleState[B] = ra flatMap f
   }
   val consoleToState = new (Console ~> ConsoleState){
     def apply[A](c: Console[A]): ConsoleState[A] = c.toState
