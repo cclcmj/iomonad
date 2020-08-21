@@ -8,7 +8,7 @@ import iomonad.ConsoleReader
 import iomonad.FSuspend
 
 object Main extends App {
-  // println("start")
+  println("start")
   // TemperatureConverter.converter.run
   // val p = IO.forever(IO.printLine("still going..."))
   // IO.run(p)
