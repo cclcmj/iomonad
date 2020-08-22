@@ -27,7 +27,9 @@ object Main extends App {
 }
 abstract class AppIO {
   import java.util.concurrent._
+  
   type IO[A] = Free[Par,A]
+
   def unsafePerformIO[A](a:IO[A])(pool:ExecutorService):A = 
     Par.run(pool)(Free.run(a)(Monad.parMonad)).get()
   def main(args:Array[String]):Unit = {
