@@ -31,7 +31,7 @@ abstract class AppIO {
   def unsafePerformIO[A](a:IO[A])(pool:ExecutorService):A = 
     Par.run(pool)(Free.run(a)(Monad.parMonad)).get()
   def main(args:Array[String]):Unit = {
-    val pol = Executors.newFixedThreadPool(8)
+    val pool = Executors.newFixedThreadPool(8)
     unsafePerformIO(pureMain(args))(pool)
   }
   def pureMain(args:IndexedSeq[String]):IO[Unit]
