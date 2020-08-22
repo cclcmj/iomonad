@@ -1,7 +1,7 @@
 /*
  * @Author: mj
  * @Date: 2020-08-14 10:41:32
- * @LastEditTime: 2020-08-19 11:49:55
+ * @LastEditTime: 2020-08-22 01:44:31
  * @LastEditors: Please set LastEditors
  * @Description: 一个支持控制台I/O的monad
  * @FilePath: /iomonad/src/main/scala/iomonad/Console.scala
@@ -39,7 +39,7 @@ case class  PrintLine(line:String) extends Console[Unit]{
 }
 object Console{
   import Free._
-  import Translate._
+  import Translate._ 
   type ConsoleIO[A] = Free[Console,A]
   def readLn:ConsoleIO[Option[String]] = FSuspend(ReadLine())
   def printLn(line:String):ConsoleIO[Unit] = FSuspend(PrintLine(line))
@@ -82,7 +82,7 @@ object ConsoleReader {
   import Translate._
   import Console._
   /**
-  * @description: 用类型类模式为Console增添功能:Reader
+  * @description: 用类型类模式为Console增添功能(方法):ToReader
   */  
   implicit class ConsoleR[A](console:Console[A]){
     def toReader:ConsoleReader[A] = ConsoleReader(a=>console.toThunk())
