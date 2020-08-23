@@ -17,4 +17,9 @@ object Files{
                             } flatMap (_=> loop(f,c))
         }
     } yield ()
+    def convertFiles = for {
+        f <- FSuspend(OpenRead("fahrenheit.txt"))
+        c <- FSuspend(OpenWrite("celsius.txt"))
+        _ <- loop(f,c)
+    } yield ()
 }
