@@ -1,6 +1,5 @@
 package iomonad
 
-
 trait Files[A]
 trait HandleR
 trait HandleW

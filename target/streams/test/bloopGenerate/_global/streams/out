@@ -1,4 +1,0 @@
-[debug] [iomonad-test] Classpath dependencies List()
-[debug] [iomonad-test] Dependencies from configurations List(iomonad)
-[debug] Bloop wrote the configuration of project 'iomonad-test' to '/home/codespace/workspace/iomonad/.bloop/iomonad-test.json'
-[success] Generated .bloop/iomonad-test.json
