@@ -24,6 +24,7 @@ object Main extends App {
   // } yield ()
   // Console.runConsole(Monad.freeMonad.forever(c))
   // ConsoleReader.runConsoleReader(Monad.freeMonad.forever(c)).run("a")
+  
 }
 abstract class AppIO {
   import java.util.concurrent._
