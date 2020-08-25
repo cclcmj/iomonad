@@ -9,6 +9,7 @@ import iomonad.FSuspend
 import answer.Par
 import answer.Par._
 import iomonad.Free
+import localEffects.STImmutable
 
 object Main extends App {
   // println("start")
@@ -24,7 +25,7 @@ object Main extends App {
   // } yield ()
   // Console.runConsole(Monad.freeMonad.forever(c))
   // ConsoleReader.runConsoleReader(Monad.freeMonad.forever(c)).run("a")
-  
+  Console.runConsole(Console.printLn(STImmutable.quicksort(3::1::2::Nil).toString()))
 }
 abstract class AppIO {
   import java.util.concurrent._
@@ -37,5 +38,10 @@ abstract class AppIO {
     val pool = Executors.newFixedThreadPool(8)
     unsafePerformIO(pureMain(args))(pool)
   }
-  def pureMain(args:IndexedSeq[String]):IO[Unit]
+  def pureMain(args:IndexedSeq[String]):IO[Unit] ={ 
+   val c = for{
+     _ <- Console.printLn(STImmutable.quicksort(3::1::2::Nil).toString)
+   }yield ()
+   Console.translate(c)(Console.consoleToPar)
+  }
 }
