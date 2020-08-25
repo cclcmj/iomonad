@@ -4258,3 +4258,637 @@ INFO: Unsupported notification method: $/setTraceNotification
 2020.08.25 03:18:13 INFO  Canceling debug proxy for [Main]
 Aug 25, 2020 3:18:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.08.25 03:19:12 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+2020.08.25 03:50:34 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.25 05:16:07 INFO  started: Metals version 0.9.3 in workspace '/home/codespace/workspace/iomonad' for client vscode.
+2020.08.25 05:16:07 INFO  time: initialize in 0.39s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4714638786103996797/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.08.25 05:16:08 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/codespace/workspace/iomonad/.bloop'...
+[0m[32m[D][0m Loading project from '/home/codespace/workspace/iomonad/.bloop/iomonad-test.json'
+[0m[32m[D][0m Loading project from '/home/codespace/workspace/iomonad/.bloop/iomonad.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'iomonad', 'iomonad-test'
+[0m[32m[D][0m Missing analysis file for project 'iomonad-test'
+[0m[32m[D][0m Loading previous analysis for 'iomonad' from '/home/codespace/workspace/iomonad/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4714638786103996797/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4714638786103996797/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 05:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher193790547431381157/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher193790547431381157/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher193790547431381157/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 05:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+2020.08.25 05:16:13 INFO  time: connected to build server in 4.98s
+2020.08.25 05:16:13 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.08.25 05:16:13 INFO  time: imported build in 0.12s
+2020.08.25 05:16:16 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.08.25 05:16:16 INFO  time: indexed workspace in 3.58s
+2020.08.25 05:32:17 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.08.25 05:48:04 INFO  started: Metals version 0.9.3 in workspace '/home/codespace/workspace/iomonad' for client vscode.
+2020.08.25 05:48:05 INFO  time: initialize in 0.37s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2381489189515850729/bsp.socket'...
+2020.08.25 05:48:05 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+2020.08.25 05:48:05 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.08.25 05:48:07 WARN  no build target for: /home/codespace/workspace/iomonad/src/main/scala/localEffects/STArray.scala
+Waiting for the bsp connection to come up...
+Aug 25, 2020 5:48:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/codespace/workspace/iomonad/.bloop'...
+[0m[32m[D][0m Loading project from '/home/codespace/workspace/iomonad/.bloop/iomonad-test.json'
+[0m[32m[D][0m Loading project from '/home/codespace/workspace/iomonad/.bloop/iomonad.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar
+[0m[32m[D][0m   => /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'iomonad-test', 'iomonad'
+[0m[32m[D][0m Missing analysis file for project 'iomonad-test'
+[0m[32m[D][0m Loading previous analysis for 'iomonad' from '/home/codespace/workspace/iomonad/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2381489189515850729/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2381489189515850729/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 05:48:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7016555843152937441/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7016555843152937441/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7016555843152937441/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 05:48:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+2020.08.25 05:48:12 INFO  time: connected to build server in 6.32s
+2020.08.25 05:48:12 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.08.25 05:48:16 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.08.25 05:48:16 INFO  time: indexed workspace in 4.56s
+2020.08.25 05:48:17 WARN  unexpected error processing the file /home/codespace/workspace/iomonad/.bloop/iomonad/bloop-bsp-clients-classes/classes-Metals-UhRn73qWRHGPCoO0nyt9UA==/META-INF/semanticdb/src/main/scala/monad/Monad.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1041)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.08.25 05:48:17 WARN  unexpected error processing the file /home/codespace/workspace/iomonad/.bloop/iomonad/bloop-bsp-clients-classes/classes-Metals-UhRn73qWRHGPCoO0nyt9UA==/META-INF/semanticdb/src/main/scala/answer/LocalEffects.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1041)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.08.25 05:49:22 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:49:25 INFO  time: compiled iomonad in 2.86s
+Aug 25, 2020 5:49:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+2020.08.25 05:49:37 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:49:37 INFO  time: compiled iomonad in 0.2s
+2020.08.25 05:49:43 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:49:43 INFO  time: compiled iomonad in 0.78s
+2020.08.25 05:49:47 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:49:47 INFO  time: compiled iomonad in 88ms
+2020.08.25 05:49:54 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:49:54 INFO  time: compiled iomonad in 77ms
+2020.08.25 05:50:00 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:00 INFO  time: compiled iomonad in 80ms
+2020.08.25 05:50:04 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:04 INFO  time: compiled iomonad in 0.26s
+2020.08.25 05:50:09 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:09 INFO  time: compiled iomonad in 71ms
+2020.08.25 05:50:16 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:16 INFO  time: compiled iomonad in 70ms
+2020.08.25 05:50:24 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:24 INFO  time: compiled iomonad in 70ms
+2020.08.25 05:50:29 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:29 INFO  time: compiled iomonad in 95ms
+2020.08.25 05:50:34 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:34 INFO  time: compiled iomonad in 76ms
+2020.08.25 05:50:48 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:50:48 INFO  time: compiled iomonad in 0.67s
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 126, 126, 135)
+2020.08.25 05:51:52 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:51:52 INFO  time: compiled iomonad in 0.6s
+Aug 25, 2020 5:51:55 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 5:51:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 05:51:58 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:51:58 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:51:58 INFO  time: compiled iomonad in 0.6s
+2020.08.25 05:52:07 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:52:07 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:52:07 INFO  time: compiled iomonad in 0.55s
+2020.08.25 05:57:35 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:57:35 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:57:35 INFO  time: compiled iomonad in 0.54s
+Aug 25, 2020 5:58:03 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 5:58:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 05:58:03 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:03 INFO  time: compiled iomonad in 66ms
+2020.08.25 05:58:06 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:06 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:58:06 INFO  time: compiled iomonad in 0.55s
+2020.08.25 05:58:08 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:08 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:58:08 INFO  time: compiled iomonad in 0.51s
+Aug 25, 2020 5:58:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 545
+2020.08.25 05:58:15 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:15 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:58:15 INFO  time: compiled iomonad in 0.78s
+Aug 25, 2020 5:58:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+Aug 25, 2020 5:58:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 579
+2020.08.25 05:58:20 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:20 INFO  time: compiled iomonad in 0.1s
+2020.08.25 05:58:23 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:23 INFO  time: compiled iomonad in 0.5s
+2020.08.25 05:58:26 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:26 INFO  time: compiled iomonad in 79ms
+2020.08.25 05:58:31 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:31 INFO  time: compiled iomonad in 0.2s
+2020.08.25 05:58:33 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:33 INFO  time: compiled iomonad in 0.65s
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 128, 128, 137)
+2020.08.25 05:58:47 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:47 INFO  time: compiled iomonad in 62ms
+2020.08.25 05:58:49 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:49 INFO  time: compiled iomonad in 0.12s
+2020.08.25 05:58:54 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:54 INFO  time: compiled iomonad in 0.55s
+2020.08.25 05:58:58 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:58:58 INFO  time: compiled iomonad in 59ms
+Aug 25, 2020 5:59:00 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 5:59:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 05:59:01 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:59:01 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:59:01 INFO  time: compiled iomonad in 0.57s
+Aug 25, 2020 5:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 772
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in () => <error>RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 239, 241, 242)
+2020.08.25 05:59:04 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:59:04 INFO  time: compiled iomonad in 68ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in (<error>, <error>)RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 239, 239, 251)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in (<error>, V)RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 239, 239, 244)
+2020.08.25 05:59:06 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:59:06 INFO  time: compiled iomonad in 87ms
+2020.08.25 05:59:08 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:59:08 INFO  time: compiled iomonad in 79ms
+2020.08.25 05:59:12 INFO  compiling iomonad (1 scala source)
+2020.08.25 05:59:12 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.08.25 05:59:12 INFO  time: compiled iomonad in 0.72s
+2020.08.25 06:00:57 INFO  started: Metals version 0.9.3 in workspace '/home/codespace/workspace/iomonad' for client vscode.
+2020.08.25 06:00:57 INFO  time: initialize in 0.41s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1441735097050754401/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.08.25 06:00:58 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1441735097050754401/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1441735097050754401/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:00:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7108516550270553320/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7108516550270553320/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7108516550270553320/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:00:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+2020.08.25 06:00:58 INFO  time: connected to build server in 0.45s
+2020.08.25 06:00:58 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.08.25 06:01:00 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.08.25 06:01:00 INFO  time: indexed workspace in 2.17s
+Aug 25, 2020 6:01:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Aug 25, 2020 6:01:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2020.08.25 06:01:21 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:01:21 INFO  time: compiled iomonad in 0.13s
+2020.08.25 06:01:33 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:01:33 INFO  time: compiled iomonad in 0.15s
+2020.08.25 06:01:53 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:01:53 INFO  time: compiled iomonad in 84ms
+2020.08.25 06:01:57 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:01:57 INFO  time: compiled iomonad in 69ms
+2020.08.25 06:01:58 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:01:58 INFO  time: compiled iomonad in 0.11s
+2020.08.25 06:02:06 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:06 INFO  time: compiled iomonad in 87ms
+2020.08.25 06:02:09 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:09 INFO  time: compiled iomonad in 0.59s
+2020.08.25 06:02:12 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:12 INFO  time: compiled iomonad in 0.6s
+Aug 25, 2020 6:02:14 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:02:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 06:02:19 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:19 INFO  time: compiled iomonad in 76ms
+2020.08.25 06:02:29 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:29 INFO  time: compiled iomonad in 92ms
+2020.08.25 06:02:32 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:32 INFO  time: compiled iomonad in 0.56s
+2020.08.25 06:02:48 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:48 INFO  time: compiled iomonad in 56ms
+Aug 25, 2020 6:02:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 416
+2020.08.25 06:02:56 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:02:56 INFO  time: compiled iomonad in 0.61s
+Aug 25, 2020 6:02:59 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:02:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 06:03:01 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:03:01 INFO  time: compiled iomonad in 78ms
+2020.08.25 06:03:04 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:03:04 INFO  time: compiled iomonad in 82ms
+2020.08.25 06:03:34 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:03:34 INFO  time: compiled iomonad in 73ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in Class[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 349, 349, 355)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 349, 349, 358)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 349, 349, 358)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 349, 349, 358)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 349, 349, 358)
+2020.08.25 06:03:42 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:03:42 INFO  time: compiled iomonad in 78ms
+2020.08.25 06:03:46 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:03:46 INFO  time: compiled iomonad in 76ms
+2020.08.25 06:04:14 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:14 INFO  time: compiled iomonad in 71ms
+Aug 25, 2020 6:04:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 671
+2020.08.25 06:04:20 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:20 INFO  time: compiled iomonad in 56ms
+2020.08.25 06:04:26 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:26 INFO  time: compiled iomonad in 95ms
+2020.08.25 06:04:30 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:30 INFO  time: compiled iomonad in 58ms
+2020.08.25 06:04:33 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:33 INFO  time: compiled iomonad in 86ms
+2020.08.25 06:04:37 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:37 INFO  time: compiled iomonad in 81ms
+2020.08.25 06:04:41 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:41 INFO  time: compiled iomonad in 66ms
+2020.08.25 06:04:44 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:44 INFO  time: compiled iomonad in 77ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 401, 401, 417)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 401, 401, 417)
+2020.08.25 06:04:48 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:48 INFO  time: compiled iomonad in 0.12s
+2020.08.25 06:04:53 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:04:53 INFO  time: compiled iomonad in 0.78s
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 403, 403, 419)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 403, 403, 419)
+2020.08.25 06:05:06 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:06 INFO  time: compiled iomonad in 62ms
+Aug 25, 2020 6:05:07 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:05:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Aug 25, 2020 6:05:07 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:05:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Aug 25, 2020 6:05:08 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:05:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 06:05:12 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:12 INFO  time: compiled iomonad in 67ms
+2020.08.25 06:05:17 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:17 INFO  time: compiled iomonad in 49ms
+2020.08.25 06:05:21 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:21 INFO  time: compiled iomonad in 0.64s
+2020.08.25 06:05:40 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:40 INFO  time: compiled iomonad in 0.6s
+2020.08.25 06:05:44 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.08.25 06:05:44 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:44 INFO  time: compiled iomonad in 0.62s
+2020.08.25 06:05:50 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:05:50 INFO  time: compiled iomonad in 0.6s
+Aug 25, 2020 6:06:03 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 25, 2020 6:06:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.08.25 06:06:05 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:05 INFO  time: compiled iomonad in 81ms
+2020.08.25 06:06:09 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:09 INFO  time: compiled iomonad in 74ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 359, 359, 368)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 359, 359, 368)
+2020.08.25 06:06:19 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:19 INFO  time: compiled iomonad in 79ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 359, 359, 368)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 359, 359, 368)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in scala.reflect.ClassTag[K]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 359, 359, 368)
+2020.08.25 06:06:30 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:30 INFO  time: compiled iomonad in 90ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in Map[K,<error>]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 459, 459, 474)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in Map[K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 459, 459, 467)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in Map[K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 459, 459, 467)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in Map[K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 459, 459, 467)
+2020.08.25 06:06:41 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:41 INFO  time: compiled iomonad in 74ms
+2020.08.25 06:06:44 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:44 INFO  time: compiled iomonad in 64ms
+2020.08.25 06:06:48 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:48 INFO  time: compiled iomonad in 80ms
+2020.08.25 06:06:55 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:55 INFO  time: compiled iomonad in 73ms
+2020.08.25 06:06:58 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:06:58 INFO  time: compiled iomonad in 95ms
+2020.08.25 06:07:00 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:00 INFO  time: compiled iomonad in 66ms
+2020.08.25 06:07:41 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:41 INFO  time: compiled iomonad in 93ms
+2020.08.25 06:07:45 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:45 INFO  time: compiled iomonad in 75ms
+2020.08.25 06:07:48 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:48 INFO  time: compiled iomonad in 74ms
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,<error>]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 501, 501, 524)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 501, 501, 517)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 501, 501, 517)
+something's wrong: no file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala in localEffects.STHashMap[S,K,V]RangePosition(file:///home/codespace/workspace/iomonad/src/main/scala/localEffects/STHashMap.scala, 501, 501, 517)
+2020.08.25 06:07:51 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:51 INFO  time: compiled iomonad in 0.52s
+2020.08.25 06:07:55 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:55 INFO  time: compiled iomonad in 74ms
+2020.08.25 06:07:57 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:07:57 INFO  time: compiled iomonad in 58ms
+2020.08.25 06:08:00 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:00 INFO  time: compiled iomonad in 0.5s
+2020.08.25 06:08:06 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:06 INFO  time: compiled iomonad in 94ms
+2020.08.25 06:08:09 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:09 INFO  time: compiled iomonad in 72ms
+2020.08.25 06:08:11 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:11 INFO  time: compiled iomonad in 84ms
+2020.08.25 06:08:14 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:14 INFO  time: compiled iomonad in 55ms
+2020.08.25 06:08:28 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:28 INFO  time: compiled iomonad in 0.11s
+2020.08.25 06:08:32 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:32 INFO  time: compiled iomonad in 96ms
+Aug 25, 2020 6:08:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1663
+Aug 25, 2020 6:08:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1678
+2020.08.25 06:08:44 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:44 INFO  time: compiled iomonad in 84ms
+2020.08.25 06:08:50 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:50 INFO  time: compiled iomonad in 0.11s
+2020.08.25 06:08:53 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:08:53 INFO  time: compiled iomonad in 0.1s
+2020.08.25 06:09:01 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:09:01 INFO  time: compiled iomonad in 0.1s
+2020.08.25 06:09:05 INFO  compiling iomonad (1 scala source)
+2020.08.25 06:09:05 INFO  time: compiled iomonad in 0.61s
+2020.08.25 06:31:37 INFO  started: Metals version 0.9.3 in workspace '/home/codespace/workspace/iomonad' for client vscode.
+2020.08.25 06:31:37 INFO  time: initialize in 0.41s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2649888182106104619/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.08.25 06:31:38 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2649888182106104619/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2649888182106104619/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:31:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3404661839811696124/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3404661839811696124/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3404661839811696124/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:31:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+2020.08.25 06:31:38 INFO  time: connected to build server in 0.29s
+2020.08.25 06:31:38 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.08.25 06:31:40 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.08.25 06:31:40 INFO  time: indexed workspace in 2.1s
+2020.08.25 06:34:11 INFO  started: Metals version 0.9.3 in workspace '/home/codespace/workspace/iomonad' for client vscode.
+2020.08.25 06:34:11 INFO  time: initialize in 0.4s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4077184344055418879/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.08.25 06:34:12 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4077184344055418879/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4077184344055418879/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:34:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7493819289825553468/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7493819289825553468/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7493819289825553468/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.08.25 06:34:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/codespace/.cache/metals/bsp.trace.json
+2020.08.25 06:34:12 INFO  time: connected to build server in 0.45s
+2020.08.25 06:34:12 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.08.25 06:34:14 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.08.25 06:34:14 INFO  time: indexed workspace in 2.09s
+2020.08.25 06:34:45 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+2020.08.25 06:38:57 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Aug 25, 2020 7:16:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
