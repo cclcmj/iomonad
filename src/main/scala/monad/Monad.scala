@@ -3,6 +3,8 @@ package monad
 import answer.Par._
 import answer.Par
 import iomonad.Free
+import answer.Nonblocking.{Par => NPar}
+import answer.Nonblocking
 
 trait Functor[F[_]]{
     def map[A,B](a:F[A])(f: A=>B):F[B]
@@ -57,6 +59,10 @@ object Monad{
     val parMonad = new Monad[Par]{
       override def unit[A](a: => A): Par.Par[A] = Par.unit(a)
       override def flatMap[A, B](a: Par.Par[A])(f: A => Par[B]): Par[B] = Par.fork {Par.flatMap(a)(f)}
+    }
+    val nparMonad = new Monad[NPar] {
+        override def unit[A](a: => A): Nonblocking.Par[A] = NPar.unit(a)
+        override def flatMap[A, B](a: NPar[A])(f: A => NPar[B]): NPar[B] = NPar.fork{NPar.flatMap(a)(f)}
     }
 }
 trait Monadic[F[_],A]{
