@@ -8,8 +8,8 @@
  */
 package iomonad
 
-import answer.Par
-import answer.Par._
+import answer.Nonblocking.Par
+import answer.Nonblocking.Par._
 import scala.io.StdIn
 import monad.Monad
 
@@ -44,10 +44,10 @@ object Console{
   def readLn:ConsoleIO[Option[String]] = FSuspend(ReadLine())
   def printLn(line:String):ConsoleIO[Unit] = FSuspend(PrintLine(line))
   val consoleToFunction0 = new (Console~>Function0){def apply[A](a: Console[A]): () => A = a.toThunk}
-  val consoleToPar = new (Console~>Par) {def apply[A](a: Console[A]): Par.Par[A] = a.toPar}
+  val consoleToPar = new (Console~>Par) {def apply[A](a: Console[A]): Par[A] = a.toPar}
   def runConsoleFunction0[A](a:Free[Console,A]):()=>A = 
     runFree[Console,Function0,A](a)(consoleToFunction0)(Monad.function0Monad)
-  def runConsolePar[A](a:Free[Console,A]):Par[A] = runFree(a)(consoleToPar)(Monad.parMonad)
+  def runConsolePar[A](a:Free[Console,A]):Par[A] = runFree(a)(consoleToPar)(Monad.nparMonad)
   /**
    * @description: runConsoleFunction0不是栈安全的，因为flatmap对function不是栈安全的
    */  

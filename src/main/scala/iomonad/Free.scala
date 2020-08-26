@@ -1,8 +1,8 @@
 package iomonad
 
 import monad.Monad
-import answer.Par._
-import answer.Par
+import answer.Nonblocking.Par._
+import answer.Nonblocking.Par
 
 trait Free[F[_],A]{
     def map[B](f:A=>B):Free[F,B] = flatMap(f andThen(FReturn(_)))

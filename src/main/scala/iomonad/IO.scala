@@ -11,20 +11,19 @@ package iomonad
 import monad.Monad
 import scala.annotation.tailrec
 
-trait IO[A] {
-    def map[B](f:A=>B):IO[B] = 
+trait IOf[A] {
+    def map[B](f:A=>B):IOf[B] = 
         flatMap(f andThen(IOReturn(_)))
-    def flatMap[B](f:A=>IO[B]):IO[B] = 
+    def flatMap[B](f:A=>IOf[B]):IOf[B] = 
         IOFlatMap(this,f)
-  
 }
-object IO extends Monad[IO]{
-    def unit[A](a: => A): IO[A] = IOReturn(a)
-    def flatMap[A, B](fa: IO[A])(f: A => IO[B]): IO[B] = fa flatMap f
-    def apply[A](a: => A): IO[A] = unit(a)
-    def printLine(s:String): IO[Unit] = IOSuspend(()=>IOReturn(println(s)))
+object IO extends Monad[IOf]{
+    def unit[A](a: => A): IOf[A] = IOReturn(a)
+    def flatMap[A, B](fa: IOf[A])(f: A => IOf[B]): IOf[B] = fa flatMap f
+    def apply[A](a: => A): IOf[A] = unit(a)
+    def printLine(s:String): IOf[Unit] = IOSuspend(()=>IOReturn(println(s)))
     @annotation.tailrec
-    def run[A](io:IO[A]):A = io match {
+    def run[A](io:IOf[A]):A = io match {
         case IOReturn(a) => a
         case IOSuspend(resume) => resume()
         case IOFlatMap(sub, k) => sub match {
@@ -39,16 +38,16 @@ object IO extends Monad[IO]{
  * @param {type} 
  * @return {type} 
  */
-case class IOReturn[A](a:A) extends IO[A]
+case class IOReturn[A](a:A) extends IOf[A]
 /**
  * @description: 计算暂停，这里resume不接受任何参数并作用产生结果
  * @param {type} 
  * @return {type} 
  */
-case class IOSuspend[A](resume: () => A) extends IO[A]
+case class IOSuspend[A](resume: () => A) extends IOf[A]
 /**
  * @description: 两个步骤的组合，flatmap具化为一个数据类型而不是函数。当run遇到它时，首先会处理自己算sub并档期返回后继续计算k
  * @param {type} 
  * @return {type} 
  */
-case class IOFlatMap[A,B](sub:IO[A],k: A=>IO[B]) extends IO[B]
+case class IOFlatMap[A,B](sub:IOf[A],k: A=>IOf[B]) extends IOf[B]
