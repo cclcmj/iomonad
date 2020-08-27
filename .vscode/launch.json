@@ -8,7 +8,7 @@
             "type": "scala",
             "name": "Debug Main",
             "request": "launch",
-            "mainClass": "Main",
+            "mainClass": "AppIO",
             "args": []
         }
     ]
