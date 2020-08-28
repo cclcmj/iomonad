@@ -96,7 +96,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "home": "/usr/local/sdkman/candidates/java/11.0.8.hs-adpt",
                 "options": [
                     "-Duser.dir=/home/codespace/workspace/iomonad"
                 ]

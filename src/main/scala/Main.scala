@@ -8,14 +8,9 @@ object AppIO {
     unsafePerformIO(pureMain(args))(pool)
   }
   def pureMain(args:IndexedSeq[String]):IO[_] ={ 
-    //val c = for{
-    //  _ <- Console.printLn(STImmutable.quicksort(3::1::2::Nil).toString)
-    //}yield ()
-    //Console.translate(c)(Console.consoleToPar)
-    val p = Process.lift((x:Int)=>x*2)
-    val xs = p(Stream(1,2,3))
+    val p = Process.dropWhile[Int](i=>i%2==0)(Stream(1,2,3,4))
     val c = for{
-      _ <- Console.printLn(xs.take(5).toList.toString)
+      _ <- Console.printLn(p.toList.toString)
     } yield ()
     Console.translate(c)(Console.consoleToPar)
   }

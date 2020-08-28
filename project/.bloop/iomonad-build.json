@@ -116,12 +116,12 @@
                 "-deprecation"
             ],
             "jars": [
-                "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
                 "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
                 "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
-                "/home/codespace/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar",
                 "/home/codespace/.sbt/boot/scala-2.12.10/lib/jansi.jar",
-                "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
+                "/home/codespace/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
+                "/home/codespace/.sbt/boot/scala-2.12.10/lib/jline.jar"
             ],
             "analysis": "/home/codespace/workspace/iomonad/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
@@ -191,7 +191,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "home": "/usr/local/sdkman/candidates/java/11.0.8.hs-adpt",
                 "options": [
                     "-Duser.dir=/home/codespace/workspace/iomonad/project"
                 ]
