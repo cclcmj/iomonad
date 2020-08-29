@@ -40,6 +40,13 @@ sealed trait Process[I,O] {
         }
         go(this)
     }
+    //--------------组合和追加处理------------
+    //组合Process值来构建更复杂的转化流。
+    //给定两个Process值f和g，实现f的输出作为g的输入
+    def |>[O2](p2:Process[O,O2]):Process[I,O2] = {
+        case Halt() => Halt()
+        case Emit(h,t)=>
+    }
 }
 object Process{
     //Emit告诉驱动器将head值递送给输出流，而后tail的部分继续由状态机处理
@@ -99,4 +106,33 @@ object Process{
         case Some(value) => Emit(value,dropWhile(f))
         case None => Halt()
     }
+    //实现count，计算元素的个数
+    def count[I]:Process[I,Int] = {
+        def go(num:Int):Process[I,Int] = Await {
+            case Some(value) => Emit(num+1,go(num+1))
+            case None => Halt()
+        }
+        go(0)
+    }
+    //求平均值
+    def mean:Process[Double,Double] = {
+        def go(sum:Double,num:Int):Process[Double,Double] = Await{
+            case Some(value) => Emit((sum+value)/(num+1),go(sum+value,num+1))
+            case None => Halt()
+        }
+        go(0.0,0)
+    }
+    //抽象出sum,count,mean共同的模式成为组合子
+    //其中每个都有自己的状态，然后根据输入更新状态并输出
+    def loop[S,I,O](z:S)(f:(I,S)=>(O,S)):Process[I,O] = Await {
+        case Some(value) => Emit(f(value,z)._1,loop(f(value,z)._2)(f))
+        case None => Halt()
+    }
+    //用loop实现sum、count
+    def sumLoop:Process[Double,Double] = 
+        loop(0.0)((i,s)=>(i+s,i+s))
+    def countLoop[I]:Process[I,Int] = 
+        loop(0)((_:I,s)=>(s+1,s+1))
+    def meanLoop:Process[Double,Double] = 
+        loop((0.0,0.0))((i,s)=>((s._1+i)/(s._2+1),(s._1+i,s._2+1)))
 }
