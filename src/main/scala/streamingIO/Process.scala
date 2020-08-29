@@ -43,10 +43,6 @@ sealed trait Process[I,O] {
     //--------------组合和追加处理------------
     //组合Process值来构建更复杂的转化流。
     //给定两个Process值f和g，实现f的输出作为g的输入
-    def |>[O2](p2:Process[O,O2]):Process[I,O2] = {
-        case Halt() => Halt()
-        case Emit(h,t)=>
-    }
 }
 object Process{
     //Emit告诉驱动器将head值递送给输出流，而后tail的部分继续由状态机处理
