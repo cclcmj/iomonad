@@ -1001,3 +1001,2144 @@ WARNING: Unmatched cancel notification for request id 18
 2020.09.02 10:17:45 INFO  Canceling debug proxy for [AppIO]
 Sep 02, 2020 10:20:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.09.02 10:23:47 INFO  Skipping existing file: /mnt/d/Ubuntu/Code/./hello-world/project/build.properties
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  Template applied in /mnt/d/Ubuntu/Code/./hello-world
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  Template applied in /mnt/d/Ubuntu/Code/./hello-world
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  build tool exit: 0
+2020.09.02 10:23:47 INFO  time: ran 'giter8.Giter8' in 11s
+2020.09.02 10:23:47 INFO  time: ran 'giter8.Giter8' in 11s
+2020.09.02 10:23:47 INFO  build tool exit: 0
+2020.09.02 10:23:47 INFO  Skipping existing file: /mnt/d/Ubuntu/Code/./hello-world/build.sbt
+2020.09.02 10:23:47 INFO  Skipping existing file: /mnt/d/Ubuntu/Code/./hello-world/project/build.properties
+2020.09.02 10:23:47 INFO  Skipping existing file: /mnt/d/Ubuntu/Code/./hello-world/src/main/scala/Main.scala
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  Template applied in /mnt/d/Ubuntu/Code/./hello-world
+2020.09.02 10:23:47 INFO  
+2020.09.02 10:23:47 INFO  build tool exit: 0
+2020.09.02 10:23:48 INFO  time: ran 'giter8.Giter8' in 11s
+Sep 02, 2020 10:37:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Sep 02, 2020 10:37:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.09.02 10:37:48 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+2020.09.02 10:38:03 INFO  started: Metals version 0.9.3 in workspace '/mnt/d/Ubuntu/Code/iomonad' for client vscode.
+2020.09.02 10:38:04 INFO  time: initialize in 1.03s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7449394109883641995/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.02 10:38:06 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7449394109883641995/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7449394109883641995/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 10:38:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5520080922958219162/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5520080922958219162/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5520080922958219162/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 10:38:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+2020.09.02 10:38:07 INFO  time: connected to build server in 1.09s
+2020.09.02 10:38:07 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.02 10:38:07 INFO  time: imported build in 0.21s
+2020.09.02 10:38:14 INFO  time: indexed workspace in 6.55s
+Sep 02, 2020 10:38:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2020.09.02 10:38:42 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.02 10:45:02 INFO  started: Metals version 0.9.3 in workspace '/mnt/d/Ubuntu/Code/iomonad' for client vscode.
+2020.09.02 10:45:03 INFO  time: initialize in 1.04s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1261731605687836286/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.02 10:45:05 INFO  no build target: using presentation compiler with only scala-library
+2020.09.02 10:45:05 INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1261731605687836286/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1261731605687836286/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 10:45:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5074658378090809398/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5074658378090809398/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5074658378090809398/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 10:45:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+2020.09.02 10:45:06 INFO  time: connected to build server in 1.38s
+2020.09.02 10:45:06 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.02 10:45:06 INFO  time: imported build in 0.18s
+2020.09.02 10:45:13 INFO  time: indexed workspace in 7.15s
+2020.09.02 10:46:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:46:58 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 10:46:58 INFO  time: compiled iomonad in 4.95s
+Sep 02, 2020 10:48:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2020.09.02 10:48:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:35 INFO  time: compiled iomonad in 0.53s
+2020.09.02 10:48:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:41 INFO  time: compiled iomonad in 3.48s
+2020.09.02 10:48:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:43 INFO  time: compiled iomonad in 0.33s
+Sep 02, 2020 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+2020.09.02 10:48:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:46 INFO  time: compiled iomonad in 0.28s
+2020.09.02 10:48:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:49 INFO  time: compiled iomonad in 0.61s
+Sep 02, 2020 10:48:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+2020.09.02 10:48:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:57 INFO  time: compiled iomonad in 0.26s
+2020.09.02 10:48:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:48:59 INFO  time: compiled iomonad in 0.3s
+2020.09.02 10:49:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:01 INFO  time: compiled iomonad in 0.27s
+2020.09.02 10:49:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:36 INFO  time: compiled iomonad in 0.37s
+2020.09.02 10:49:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:39 INFO  time: compiled iomonad in 0.28s
+2020.09.02 10:49:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:41 INFO  time: compiled iomonad in 0.21s
+2020.09.02 10:49:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:57 INFO  time: compiled iomonad in 0.23s
+2020.09.02 10:49:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:49:59 INFO  time: compiled iomonad in 0.44s
+2020.09.02 10:50:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:08 INFO  time: compiled iomonad in 0.29s
+2020.09.02 10:50:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:10 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:50:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:12 INFO  time: compiled iomonad in 0.29s
+2020.09.02 10:50:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:15 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:50:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:19 INFO  time: compiled iomonad in 0.31s
+2020.09.02 10:50:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:21 INFO  time: compiled iomonad in 0.2s
+2020.09.02 10:50:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:38 INFO  time: compiled iomonad in 0.31s
+2020.09.02 10:50:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:40 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:50:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:43 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:50:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:45 INFO  time: compiled iomonad in 0.23s
+2020.09.02 10:50:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:52 INFO  time: compiled iomonad in 0.32s
+2020.09.02 10:50:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:54 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:50:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:50:56 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:51:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:01 INFO  time: compiled iomonad in 0.66s
+2020.09.02 10:51:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:04 INFO  time: compiled iomonad in 0.55s
+2020.09.02 10:51:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:09 INFO  time: compiled iomonad in 0.56s
+2020.09.02 10:51:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:11 INFO  time: compiled iomonad in 0.73s
+2020.09.02 10:51:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:14 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:51:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:20 INFO  time: compiled iomonad in 0.61s
+2020.09.02 10:51:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:23 INFO  time: compiled iomonad in 0.57s
+2020.09.02 10:51:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:26 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:51:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:28 INFO  time: compiled iomonad in 0.23s
+2020.09.02 10:51:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:35 INFO  time: compiled iomonad in 0.25s
+Sep 02, 2020 10:51:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+2020.09.02 10:51:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:37 INFO  time: compiled iomonad in 0.19s
+2020.09.02 10:51:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:39 INFO  time: compiled iomonad in 0.8s
+2020.09.02 10:51:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:43 INFO  time: compiled iomonad in 0.26s
+2020.09.02 10:51:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:45 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:51:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:49 INFO  time: compiled iomonad in 0.6s
+2020.09.02 10:51:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:51 INFO  time: compiled iomonad in 0.65s
+2020.09.02 10:51:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:51:54 INFO  time: compiled iomonad in 0.58s
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:51:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+Sep 02, 2020 10:52:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 732
+2020.09.02 10:52:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:05 INFO  time: compiled iomonad in 0.33s
+2020.09.02 10:52:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:08 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:52:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:10 INFO  time: compiled iomonad in 0.46s
+2020.09.02 10:52:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:14 INFO  time: compiled iomonad in 0.55s
+2020.09.02 10:52:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:17 INFO  time: compiled iomonad in 0.45s
+2020.09.02 10:52:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:21 INFO  time: compiled iomonad in 0.31s
+2020.09.02 10:52:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:24 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:52:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:26 INFO  time: compiled iomonad in 0.2s
+2020.09.02 10:52:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:28 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:52:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:31 INFO  time: compiled iomonad in 0.22s
+2020.09.02 10:52:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:33 INFO  time: compiled iomonad in 0.79s
+2020.09.02 10:52:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:36 INFO  time: compiled iomonad in 0.64s
+2020.09.02 10:52:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:39 INFO  time: compiled iomonad in 0.44s
+2020.09.02 10:52:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:43 INFO  time: compiled iomonad in 0.47s
+2020.09.02 10:52:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:45 INFO  time: compiled iomonad in 0.45s
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:35: stale bloop error: not enough arguments for method apply: (head: O, tail: streamingIO.Process[I,O])streamingIO.Process.Emit[I,O] in object Emit.
+Unspecified value parameter head.
+                case Emit(h,t) => Emit()
+                                  ^^^^^^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:35: stale bloop error: not enough arguments for method apply: (head: O, tail: streamingIO.Process[I,O])streamingIO.Process.Emit[I,O] in object Emit.
+Unspecified value parameter head.
+                case Emit(h,t) => Emit()
+                                  ^^^^^^
+2020.09.02 10:52:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:53 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:52:53 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:52:53 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:35: stale bloop error: not enough arguments for method apply: (head: O, tail: streamingIO.Process[I,O])streamingIO.Process.Emit[I,O] in object Emit.
+Unspecified value parameter head.
+                case Emit(h,t) => Emit()
+                                  ^^^^^^
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:52 INFO  time: compiled iomonad in 0.28s
+2020.09.02 10:52:52 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:53 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:54 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:54 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:54 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:55 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:55 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:52:57 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:52:38: stale bloop error: illegal character '\u300b'
+                case Emit(h,t) => t |》
+                                     ^
+2020.09.02 10:52:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:52:57 INFO  time: compiled iomonad in 0.57s
+Sep 02, 2020 10:52:58 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.09.02 10:53:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:02 INFO  time: compiled iomonad in 0.54s
+2020.09.02 10:53:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:04 INFO  time: compiled iomonad in 0.45s
+2020.09.02 10:53:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:19 INFO  time: compiled iomonad in 0.46s
+2020.09.02 10:53:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:21 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:53:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:24 INFO  time: compiled iomonad in 0.24s
+2020.09.02 10:53:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:26 INFO  time: compiled iomonad in 0.45s
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:37: stale bloop error: type mismatch;
+ found   : streamingIO.Process.Await.type
+ required: streamingIO.Process[I,O2]
+                case Await(recv) => Await
+                                    ^^^^^
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:53:27 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:37: stale bloop error: type mismatch;
+ found   : streamingIO.Process.Await.type
+ required: streamingIO.Process[I,O2]
+                case Await(recv) => Await
+                                    ^^^^^
+2020.09.02 10:53:28 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:46:19: stale bloop error: wrong number of type arguments for streamingIO.Process, should be 2
+    def |>[O2](p2:Process[O.O2]):Process[I,O2] = {
+                  ^^^^^^^^^^^^^
+2020.09.02 10:53:28 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:49:36: stale bloop error: type mismatch;
+ found   : h.type (with underlying type Any)
+ required: O2
+            case Emit(h,t) => Emit(h,this |> t)
+                                   ^
+2020.09.02 10:53:28 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:37: stale bloop error: type mismatch;
+ found   : streamingIO.Process.Await.type
+ required: streamingIO.Process[I,O2]
+                case Await(recv) => Await
+                                    ^^^^^
+2020.09.02 10:53:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:42: stale bloop error: illegal character '\uff08'
+                case Await(recv) => Await（）
+                                         ^
+2020.09.02 10:53:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:42: stale bloop error: illegal character '\uff08'
+                case Await(recv) => Await（）
+                                         ^
+2020.09.02 10:53:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:53:43: stale bloop error: illegal character '\uff09'
+                case Await(recv) => Await（）
+                                          ^
+2020.09.02 10:53:29 INFO  time: compiled iomonad in 0.27s
+2020.09.02 10:53:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:31 INFO  time: compiled iomonad in 0.45s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1787, 1787, 1797)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1787, 1787, 1803)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1787, 1787, 1796)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1787, 1787, 1796)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1787, 1787, 1796)
+2020.09.02 10:53:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:37 INFO  time: compiled iomonad in 0.47s
+2020.09.02 10:53:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:39 INFO  time: compiled iomonad in 0.5s
+2020.09.02 10:53:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:42 INFO  time: compiled iomonad in 0.25s
+2020.09.02 10:53:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:44 INFO  time: compiled iomonad in 0.49s
+2020.09.02 10:53:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:47 INFO  time: compiled iomonad in 0.42s
+2020.09.02 10:53:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:53:49 INFO  time: compiled iomonad in 0.46s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[O,O2]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1467, 1467, 1480)
+2020.09.02 10:54:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:54:05 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 10:54:05 INFO  time: compiled iomonad in 4.25s
+2020.09.02 10:57:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:57:17 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 10:57:17 INFO  time: compiled iomonad in 4.14s
+2020.09.02 10:57:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:57:21 INFO  time: compiled iomonad in 0.56s
+2020.09.02 10:59:13 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 10:59:13 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 02, 2020 10:59:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Sep 02, 2020 10:59:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1233
+2020.09.02 10:59:16 INFO  time: compiled iomonad in 3.61s
+2020.09.02 10:59:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:22 INFO  time: compiled iomonad in 3.92s
+2020.09.02 10:59:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:27 INFO  time: compiled iomonad in 0.65s
+2020.09.02 10:59:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:30 INFO  time: compiled iomonad in 0.47s
+2020.09.02 10:59:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:33 INFO  time: compiled iomonad in 0.22s
+2020.09.02 10:59:37 INFO  compiling iomonad (1 scala source)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[I,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1874, 1874, 1893)
+Sep 02, 2020 10:59:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1355
+2020.09.02 10:59:37 INFO  time: compiled iomonad in 0.22s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[I,O]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 1874, 1874, 1886)
+2020.09.02 10:59:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:42 INFO  time: compiled iomonad in 2.81s
+2020.09.02 10:59:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:49 INFO  time: compiled iomonad in 2.97s
+2020.09.02 10:59:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:51 INFO  time: compiled iomonad in 0.22s
+2020.09.02 10:59:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:53 INFO  time: compiled iomonad in 0.2s
+2020.09.02 10:59:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 10:59:58 INFO  time: compiled iomonad in 0.45s
+2020.09.02 11:00:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:01 INFO  time: compiled iomonad in 0.4s
+2020.09.02 11:00:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:03 INFO  time: compiled iomonad in 0.48s
+2020.09.02 11:00:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:07 INFO  time: compiled iomonad in 0.39s
+2020.09.02 11:00:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:10 INFO  time: compiled iomonad in 0.49s
+2020.09.02 11:00:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:13 INFO  time: compiled iomonad in 0.2s
+2020.09.02 11:00:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:16 INFO  time: compiled iomonad in 0.49s
+2020.09.02 11:00:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:19 INFO  time: compiled iomonad in 0.39s
+2020.09.02 11:00:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:21 INFO  time: compiled iomonad in 0.46s
+2020.09.02 11:00:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:24 INFO  time: compiled iomonad in 0.48s
+2020.09.02 11:00:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:26 INFO  time: compiled iomonad in 0.39s
+2020.09.02 11:00:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:29 INFO  time: compiled iomonad in 0.41s
+2020.09.02 11:00:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:33 INFO  time: compiled iomonad in 0.4s
+2020.09.02 11:00:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:35 INFO  time: compiled iomonad in 0.47s
+2020.09.02 11:00:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:45 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:00:45 INFO  time: compiled iomonad in 4.25s
+2020.09.02 11:00:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:54 INFO  time: compiled iomonad in 3.12s
+Sep 02, 2020 11:00:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1771
+2020.09.02 11:00:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:00:56 INFO  time: compiled iomonad in 0.27s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[I,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2082, 2082, 2101)
+2020.09.02 11:01:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:03 INFO  time: compiled iomonad in 3.31s
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:04 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:67:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:69:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:05 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:71:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def flatMap[O2](f: O => streamingIO.Process[I,O2]): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 11:01:08 INFO  time: compiled iomonad in 2.96s
+2020.09.02 11:01:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:13 INFO  time: compiled iomonad in 2.86s
+2020.09.02 11:01:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:18 INFO  time: compiled iomonad in 3.09s
+2020.09.02 11:01:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:20 INFO  time: compiled iomonad in 0.21s
+2020.09.02 11:01:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:23 INFO  time: compiled iomonad in 0.27s
+2020.09.02 11:01:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:25 INFO  time: compiled iomonad in 0.23s
+2020.09.02 11:01:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:27 INFO  time: compiled iomonad in 0.25s
+2020.09.02 11:01:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:38 INFO  time: compiled iomonad in 0.48s
+2020.09.02 11:01:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:40 INFO  time: compiled iomonad in 0.47s
+2020.09.02 11:01:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:43 INFO  time: compiled iomonad in 0.39s
+2020.09.02 11:01:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:49 INFO  time: compiled iomonad in 0.44s
+2020.09.02 11:01:51 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 11:01:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2072
+2020.09.02 11:01:51 INFO  time: compiled iomonad in 0.47s
+2020.09.02 11:01:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:54 INFO  time: compiled iomonad in 0.52s
+2020.09.02 11:01:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:57 INFO  time: compiled iomonad in 0.45s
+2020.09.02 11:01:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:01:59 INFO  time: compiled iomonad in 0.39s
+2020.09.02 11:02:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:02 INFO  time: compiled iomonad in 0.44s
+2020.09.02 11:02:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:04 INFO  time: compiled iomonad in 0.51s
+2020.09.02 11:02:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:07 INFO  time: compiled iomonad in 0.42s
+2020.09.02 11:02:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:10 INFO  time: compiled iomonad in 0.52s
+2020.09.02 11:02:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:12 INFO  time: compiled iomonad in 0.2s
+2020.09.02 11:02:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:17 INFO  time: compiled iomonad in 0.18s
+2020.09.02 11:02:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:25 INFO  time: compiled iomonad in 0.45s
+2020.09.02 11:02:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:27 INFO  time: compiled iomonad in 0.43s
+2020.09.02 11:02:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:35 INFO  time: compiled iomonad in 0.48s
+2020.09.02 11:02:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:38 INFO  time: compiled iomonad in 0.42s
+2020.09.02 11:02:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:43 INFO  time: compiled iomonad in 0.49s
+2020.09.02 11:02:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:45 INFO  time: compiled iomonad in 0.52s
+2020.09.02 11:02:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:48 INFO  time: compiled iomonad in 0.2s
+2020.09.02 11:02:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:02:54 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:02:54 INFO  time: compiled iomonad in 4.08s
+2020.09.02 11:03:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:03:50 INFO  time: compiled iomonad in 0.52s
+2020.09.02 11:03:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:03:56 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:03:56 INFO  time: compiled iomonad in 3.63s
+2020.09.02 11:04:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:05 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:04:05 INFO  time: compiled iomonad in 4.01s
+2020.09.02 11:04:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:14 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:04:14 INFO  time: compiled iomonad in 3.73s
+Sep 02, 2020 11:04:14 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.09.02 11:04:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:20 INFO  time: compiled iomonad in 0.46s
+2020.09.02 11:04:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:22 INFO  time: compiled iomonad in 0.41s
+2020.09.02 11:04:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:25 INFO  time: compiled iomonad in 0.54s
+2020.09.02 11:04:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:27 INFO  time: compiled iomonad in 0.5s
+2020.09.02 11:04:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:30 INFO  time: compiled iomonad in 0.19s
+2020.09.02 11:04:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:32 INFO  time: compiled iomonad in 0.27s
+2020.09.02 11:04:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:35 INFO  time: compiled iomonad in 0.26s
+2020.09.02 11:04:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:37 INFO  time: compiled iomonad in 0.2s
+2020.09.02 11:04:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:40 INFO  time: compiled iomonad in 0.21s
+2020.09.02 11:04:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:47 INFO  time: compiled iomonad in 0.23s
+Sep 02, 2020 11:04:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2612
+2020.09.02 11:04:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:50 INFO  time: compiled iomonad in 0.25s
+2020.09.02 11:04:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:52 INFO  time: compiled iomonad in 0.28s
+2020.09.02 11:04:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:04:54 INFO  time: compiled iomonad in 0.2s
+2020.09.02 11:05:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:09 INFO  time: compiled iomonad in 0.31s
+2020.09.02 11:05:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:11 INFO  time: compiled iomonad in 0.24s
+2020.09.02 11:05:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:50: stale bloop error: ';' expected but ')' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x])}]
+                                                 ^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:52: stale bloop error: ')' expected but ']' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x])}]
+                                                   ^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:158:1: stale bloop error: ']' expected but '}' found.
+}
+^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:50: stale bloop error: ';' expected but ')' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x])}]
+                                                 ^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:52: stale bloop error: ')' expected but ']' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x])}]
+                                                   ^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:158:1: stale bloop error: ']' expected but '}' found.
+}
+^
+2020.09.02 11:05:13 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: ')' expected but ']' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x]}]
+                                                  ^
+2020.09.02 11:05:13 INFO  time: compiled iomonad in 0.23s
+2020.09.02 11:05:14 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: ')' expected but ']' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x]}]
+                                                  ^
+2020.09.02 11:05:14 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: ')' expected but ']' found.
+    def monad[I]:Monad[({type f[x] = Process[I,x]}]
+                                                  ^
+2020.09.02 11:05:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:16 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:16 INFO  time: compiled iomonad in 0.19s
+2020.09.02 11:05:16 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:17 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:17 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:17 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:18 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:157:51: stale bloop error: illegal character '\uff09'
+    def monad[I]:Monad[({type f[x] = Process[I,x]}）]
+                                                  ^
+2020.09.02 11:05:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:18 INFO  time: compiled iomonad in 0.6s
+2020.09.02 11:05:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:21 INFO  time: compiled iomonad in 0.41s
+2020.09.02 11:05:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:23 INFO  time: compiled iomonad in 0.22s
+2020.09.02 11:05:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:27 INFO  time: compiled iomonad in 0.48s
+2020.09.02 11:05:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:29 INFO  time: compiled iomonad in 0.41s
+2020.09.02 11:05:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:32 INFO  time: compiled iomonad in 0.47s
+2020.09.02 11:05:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:37 INFO  time: compiled iomonad in 0.53s
+2020.09.02 11:05:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:39 INFO  time: compiled iomonad in 0.26s
+2020.09.02 11:05:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:42 INFO  time: compiled iomonad in 0.27s
+2020.09.02 11:05:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:52 INFO  time: compiled iomonad in 0.5s
+2020.09.02 11:05:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:05:54 INFO  time: compiled iomonad in 0.53s
+2020.09.02 11:05:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:06:02 INFO  time: compiled iomonad in 4.79s
+2020.09.02 11:06:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:06:07 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:06:07 INFO  time: compiled iomonad in 3.89s
+2020.09.02 11:06:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:06:17 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:06:17 INFO  time: compiled iomonad in 3.85s
+2020.09.02 11:06:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:06:34 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:06:34 INFO  time: compiled iomonad in 4.27s
+2020.09.02 11:06:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 11:06:49 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 11:06:49 INFO  time: compiled iomonad in 3.94s
+2020.09.02 11:24:09 INFO  shutting down Metals
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.02 12:49:07 INFO  started: Metals version 0.9.3 in workspace '/mnt/d/Ubuntu/Code/iomonad' for client vscode.
+2020.09.02 12:49:08 INFO  time: initialize in 0.55s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8881579711971777137/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.02 12:49:09 INFO  no build target: using presentation compiler with only scala-library
+2020.09.02 12:49:09 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.09.02 12:49:12 WARN  no build target for: /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/mnt/d/Ubuntu/Code/iomonad/.bloop'...
+[0m[32m[D][0m Loading project from '/mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad-test.json'
+[0m[32m[D][0m Loading project from '/mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => /home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => /home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar
+[0m[32m[D][0m   => /home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'iomonad-test', 'iomonad'
+[0m[32m[D][0m Missing analysis file for project 'iomonad-test'
+[0m[32m[D][0m Loading previous analysis for 'iomonad' from '/mnt/d/Ubuntu/Code/iomonad/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8881579711971777137/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8881579711971777137/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 12:49:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5387322966170913618/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5387322966170913618/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5387322966170913618/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.02 12:49:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/bsp.trace.json
+2020.09.02 12:49:16 INFO  time: connected to build server in 7.74s
+2020.09.02 12:49:16 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.02 12:49:16 INFO  time: imported build in 0.34s
+2020.09.02 12:49:20 INFO  time: indexed workspace in 3.04s
+2020.09.02 13:04:24 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:04:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+Sep 02, 2020 1:04:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+2020.09.02 13:04:41 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:04:41 INFO  time: compiled iomonad in 17s
+2020.09.02 13:04:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:04:50 INFO  time: compiled iomonad in 4.78s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[I,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2342, 2342, 2361)
+2020.09.02 13:04:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:04:52 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:04:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:04:59 INFO  time: compiled iomonad in 4.65s
+2020.09.02 13:05:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:02 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:05:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:08 INFO  time: compiled iomonad in 4.05s
+2020.09.02 13:05:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:11 INFO  time: compiled iomonad in 0.39s
+2020.09.02 13:05:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:13 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:05:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:20 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:05:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:22 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:05:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:25 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:05:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:28 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:05:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:30 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:05:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:38 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:05:38 INFO  time: compiled iomonad in 6.09s
+2020.09.02 13:05:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:42 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:05:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:46 INFO  time: compiled iomonad in 0.85s
+2020.09.02 13:05:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:05:49 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:06:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:00 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:06:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:03 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:06:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:05 INFO  time: compiled iomonad in 1s
+2020.09.02 13:06:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:08 INFO  time: compiled iomonad in 1s
+2020.09.02 13:06:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:12 INFO  time: compiled iomonad in 0.77s
+2020.09.02 13:06:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:16 INFO  time: compiled iomonad in 1.03s
+2020.09.02 13:06:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:18 INFO  time: compiled iomonad in 0.89s
+2020.09.02 13:06:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:30 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:06:30 INFO  time: compiled iomonad in 5.26s
+2020.09.02 13:06:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:34 INFO  time: compiled iomonad in 0.43s
+2020.09.02 13:06:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:36 INFO  time: compiled iomonad in 0.82s
+Sep 02, 2020 1:06:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.09.02 13:06:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:40 INFO  time: compiled iomonad in 0.69s
+Sep 02, 2020 1:06:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 621
+2020.09.02 13:06:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:47 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:06:47 INFO  time: compiled iomonad in 4.54s
+2020.09.02 13:06:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:53 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:06:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:06:58 INFO  time: compiled iomonad in 0.62s
+2020.09.02 13:07:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:00 INFO  time: compiled iomonad in 0.92s
+2020.09.02 13:07:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:03 INFO  time: compiled iomonad in 0.72s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2609, 2609, 2619)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2609, 2609, 2625)
+2020.09.02 13:07:08 INFO  compiling iomonad (1 scala source)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2609, 2609, 2618)
+2020.09.02 13:07:08 INFO  time: compiled iomonad in 0.32s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2609, 2609, 2618)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2609, 2609, 2618)
+2020.09.02 13:07:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:10 INFO  time: compiled iomonad in 0.6s
+2020.09.02 13:07:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:14 INFO  time: compiled iomonad in 0.67s
+2020.09.02 13:07:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:16 INFO  time: compiled iomonad in 0.87s
+2020.09.02 13:07:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:26 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:07:28 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:07:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 794
+2020.09.02 13:07:28 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:07:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:31 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:07:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:34 INFO  time: compiled iomonad in 0.65s
+2020.09.02 13:07:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:37 INFO  time: compiled iomonad in 0.59s
+2020.09.02 13:07:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:07:39 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:08:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:33 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:08:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:36 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:08:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:38 INFO  time: compiled iomonad in 0.6s
+2020.09.02 13:08:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:41 INFO  time: compiled iomonad in 1s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2666, 2666, 2675)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2666, 2666, 2682)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2666, 2666, 2675)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2666, 2666, 2675)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2666, 2666, 2675)
+2020.09.02 13:08:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:45 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:08:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:48 INFO  time: compiled iomonad in 0.65s
+2020.09.02 13:08:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:51 INFO  time: compiled iomonad in 0.6s
+2020.09.02 13:08:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:53 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:08:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:56 INFO  time: compiled iomonad in 0.36s
+2020.09.02 13:08:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:08:59 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:09:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:01 INFO  time: compiled iomonad in 0.25s
+2020.09.02 13:09:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:06 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:09:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:09 INFO  time: compiled iomonad in 0.68s
+2020.09.02 13:09:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:12 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:09:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:14 INFO  time: compiled iomonad in 0.4s
+2020.09.02 13:09:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:17 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:09:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:19 INFO  time: compiled iomonad in 0.58s
+2020.09.02 13:09:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:22 INFO  time: compiled iomonad in 0.72s
+2020.09.02 13:09:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:27 INFO  time: compiled iomonad in 0.26s
+Sep 02, 2020 1:09:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1127
+2020.09.02 13:09:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:30 INFO  time: compiled iomonad in 0.63s
+2020.09.02 13:09:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:32 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:09:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:35 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:09:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:44 INFO  time: compiled iomonad in 0.66s
+2020.09.02 13:09:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:47 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:09:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:09:49 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:10:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:14 INFO  time: compiled iomonad in 0.88s
+2020.09.02 13:10:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:17 INFO  time: compiled iomonad in 0.7s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2663, 2663, 2672)
+2020.09.02 13:10:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:24 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:10:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:26 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:10:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:29 INFO  time: compiled iomonad in 0.61s
+2020.09.02 13:10:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:32 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:10:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:35 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:10:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:47 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:10:47 INFO  time: compiled iomonad in 4.34s
+2020.09.02 13:10:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:10:55 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:10:55 INFO  time: compiled iomonad in 4.19s
+2020.09.02 13:10:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:02 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:11:02 INFO  time: compiled iomonad in 4.28s
+2020.09.02 13:11:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:13 INFO  time: compiled iomonad in 0.38s
+2020.09.02 13:11:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:15 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:11:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:18 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:11:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:20 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:11:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:25 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:11:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:27 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:11:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:35 INFO  time: compiled iomonad in 0.67s
+2020.09.02 13:11:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:38 INFO  time: compiled iomonad in 0.62s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2712, 2712, 2722)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2712, 2712, 2728)
+2020.09.02 13:11:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:40 INFO  time: compiled iomonad in 0.26s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2712, 2712, 2721)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2712, 2712, 2721)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[I]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2712, 2712, 2721)
+2020.09.02 13:11:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:43 INFO  time: compiled iomonad in 0.58s
+2020.09.02 13:11:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:45 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:11:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:52 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:11:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:55 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:11:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:11:58 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:12:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:12:00 INFO  time: compiled iomonad in 0.48s
+2020.09.02 13:12:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:12:03 INFO  time: compiled iomonad in 0.59s
+2020.09.02 13:12:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:12:12 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:12:12 INFO  time: compiled iomonad in 4.17s
+2020.09.02 13:12:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:03 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:13:03 INFO  time: compiled iomonad in 5.37s
+2020.09.02 13:13:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:10 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:13:10 INFO  time: compiled iomonad in 3.81s
+Sep 02, 2020 1:13:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1757
+2020.09.02 13:13:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:19 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:13:19 INFO  time: compiled iomonad in 4.29s
+2020.09.02 13:13:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:23 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:13:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:26 INFO  time: compiled iomonad in 0.59s
+2020.09.02 13:13:28 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:13:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1853
+2020.09.02 13:13:28 INFO  time: compiled iomonad in 0.58s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[A,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6432, 6432, 6451)
+2020.09.02 13:13:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:32 INFO  time: compiled iomonad in 0.48s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[A,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6449, 6449, 6468)
+2020.09.02 13:13:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:38 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:13:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:41 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:13:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:45 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:13:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:47 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:13:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:54 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:13:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:13:57 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:14:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:04 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:14:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:06 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:14:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:12 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:14:12 INFO  time: compiled iomonad in 3.82s
+2020.09.02 13:14:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:15 INFO  time: compiled iomonad in 0.64s
+2020.09.02 13:14:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:18 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:14:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:26 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:14:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:28 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:14:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:30 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:14:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:33 INFO  time: compiled iomonad in 0.39s
+2020.09.02 13:14:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:35 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:14:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:38 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:14:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:40 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:14:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:43 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:14:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:53 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:14:53 INFO  time: compiled iomonad in 4.43s
+2020.09.02 13:14:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:56 INFO  time: compiled iomonad in 0.58s
+2020.09.02 13:14:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:14:59 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:15:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:01 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:15:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:08 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:15:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:11 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:15:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:14 INFO  time: compiled iomonad in 0.56s
+Sep 02, 2020 1:15:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.09.02 13:15:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:21 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:15:21 INFO  time: compiled iomonad in 4.11s
+2020.09.02 13:15:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:27 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:15:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:29 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:15:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:32 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:15:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:35 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:15:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:42 INFO  time: compiled iomonad in 0.44s
+Sep 02, 2020 1:15:43 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 02, 2020 1:15:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.09.02 13:15:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:45 INFO  time: compiled iomonad in 0.58s
+2020.09.02 13:15:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:47 INFO  time: compiled iomonad in 0.42s
+2020.09.02 13:15:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:52 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:15:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:54 INFO  time: compiled iomonad in 0.43s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6722, 6722, 6731)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6722, 6722, 6738)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6722, 6722, 6731)
+2020.09.02 13:15:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:15:57 INFO  time: compiled iomonad in 0.64s
+2020.09.02 13:16:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:00 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:16:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:02 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:16:05 INFO  compiling iomonad (1 scala source)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[A,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6735, 6735, 6754)
+2020.09.02 13:16:05 INFO  time: compiled iomonad in 0.35s
+2020.09.02 13:16:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:07 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:16:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:11 INFO  time: compiled iomonad in 0.54s
+Sep 02, 2020 1:16:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2853
+2020.09.02 13:16:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:14 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:16:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:16 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:16:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:19 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:16:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:21 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:16:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:24 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:16:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:27 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:16:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:33 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:16:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:35 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:16:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:43 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:16:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:46 INFO  time: compiled iomonad in 0.57s
+2020.09.02 13:16:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:49 INFO  time: compiled iomonad in 0.48s
+2020.09.02 13:16:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:52 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:16:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:16:55 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:16:57 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:16:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3069
+2020.09.02 13:16:57 INFO  time: compiled iomonad in 0.72s
+2020.09.02 13:17:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:00 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:17:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:06 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:17:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:09 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:17:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:11 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:17:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:20 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:17:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:23 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:17:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:25 INFO  time: compiled iomonad in 0.74s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6695, 6695, 6705)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6695, 6695, 6711)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6695, 6695, 6704)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6695, 6695, 6704)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6695, 6695, 6704)
+2020.09.02 13:17:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:31 INFO  time: compiled iomonad in 0.59s
+2020.09.02 13:17:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:34 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:17:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:36 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:17:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:39 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:17:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:41 INFO  time: compiled iomonad in 0.62s
+2020.09.02 13:17:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:45 INFO  time: compiled iomonad in 0.5s
+2020.09.02 13:17:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:48 INFO  time: compiled iomonad in 0.61s
+2020.09.02 13:17:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:51 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:17:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:54 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:17:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:17:57 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:18:00 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:18:00 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.09.02 13:18:00 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:18:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:03 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:18:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:09 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:18:09 INFO  time: compiled iomonad in 3.68s
+2020.09.02 13:18:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:18 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:18:18 INFO  time: compiled iomonad in 4.07s
+2020.09.02 13:18:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:32 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:18:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:35 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:18:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:37 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:18:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:39 INFO  time: compiled iomonad in 0.26s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6793)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6799)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6792)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6799)
+Sep 02, 2020 1:18:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3606
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6792)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6792)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Option[A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 6783, 6783, 6792)
+2020.09.02 13:18:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:49 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:18:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:52 INFO  time: compiled iomonad in 0.42s
+2020.09.02 13:18:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:55 INFO  time: compiled iomonad in 0.5s
+2020.09.02 13:18:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:18:57 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:19:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:19:00 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:19:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:19:02 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:19:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:19:05 INFO  time: compiled iomonad in 0.48s
+2020.09.02 13:19:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:19:16 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:19:16 INFO  time: compiled iomonad in 4s
+2020.09.02 13:19:47 INFO  compiling iomonad (1 scala source)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/answer in fpinscala.streamingio.SimpleStreamTransducers.Process[A,B]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/answer, 11926, 11926, 11938)
+2020.09.02 13:19:51 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:19:51 WARN  unexpected error processing the file /mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad/bloop-bsp-clients-classes/classes-Metals-5ascuSYOQxmhWI47whLEHw==/META-INF/semanticdb/src/main/scala/streamingIO/Process.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1041)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.09.02 13:19:51 INFO  time: compiled iomonad in 4.61s
+2020.09.02 13:23:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:23:54 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:23:54 INFO  time: compiled iomonad in 4.32s
+2020.09.02 13:23:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:03 INFO  time: compiled iomonad in 3.43s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[I,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 2342, 2342, 2363)
+2020.09.02 13:24:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:10 INFO  time: compiled iomonad in 5.17s
+2020.09.02 13:24:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:16 INFO  time: compiled iomonad in 3.67s
+2020.09.02 13:24:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:18 INFO  time: compiled iomonad in 0.25s
+2020.09.02 13:24:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:22 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:24:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:25 INFO  time: compiled iomonad in 0.37s
+2020.09.02 13:24:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:28 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:24:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:30 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:24:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:37 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:24:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:39 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:24:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:42 INFO  time: compiled iomonad in 0.48s
+2020.09.02 13:24:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:24:48 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:24:48 INFO  time: compiled iomonad in 3.73s
+2020.09.02 13:25:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:24 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:25:24 INFO  time: compiled iomonad in 4s
+2020.09.02 13:25:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:33 INFO  time: compiled iomonad in 3.21s
+2020.09.02 13:25:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:35 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:36 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:37 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2]: Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  time: compiled iomonad in 3.45s
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:39 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:78:5: stale bloop error: class Emit needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Emit[I,O](head:O,tail:Process[I,O] = Halt[I,O]()) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:80:5: stale bloop error: class Await needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Await[I,O](recv:Option[I]=>Process[I,O]) extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:40 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:82:5: stale bloop error: class Halt needs to be abstract. Missing implementation for:
+  def map[O2](f: O => O2): Unit // inherited from trait Process
+    case class Halt[I,O]() extends Process[I,O]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:25:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:41 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:25:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:46 INFO  time: compiled iomonad in 3.13s
+2020.09.02 13:25:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:48 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:25:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:25:52 INFO  time: compiled iomonad in 0.24s
+2020.09.02 13:26:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:01 INFO  time: compiled iomonad in 0.82s
+2020.09.02 13:26:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:04 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:26:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:07 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:26:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:09 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:26:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:14 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:26:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:17 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:26:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:19 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:26:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:25 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:26:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:28 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:26:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:30 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:26:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:33 INFO  time: compiled iomonad in 0.5s
+2020.09.02 13:26:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:36 INFO  time: compiled iomonad in 0.5s
+2020.09.02 13:26:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:38 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:26:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:41 INFO  time: compiled iomonad in 0.49s
+Sep 02, 2020 1:26:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4604
+2020.09.02 13:26:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:45 INFO  time: compiled iomonad in 0.43s
+2020.09.02 13:26:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:51 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:26:51 INFO  time: compiled iomonad in 3.68s
+2020.09.02 13:26:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:26:52 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:26:52 INFO  time: compiled iomonad in 1.62s
+2020.09.02 13:26:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:01 INFO  time: compiled iomonad in 3.7s
+2020.09.02 13:27:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:07 INFO  time: compiled iomonad in 3.21s
+2020.09.02 13:27:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:13 INFO  time: compiled iomonad in 3.65s
+2020.09.02 13:27:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:15 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:27:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:19 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:27:21 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:27:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4765
+2020.09.02 13:27:24 INFO  time: compiled iomonad in 3.26s
+2020.09.02 13:27:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:30 INFO  time: compiled iomonad in 3.15s
+2020.09.02 13:27:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:33 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:27:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:35 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:27:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:42 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:27:42 INFO  time: compiled iomonad in 3.87s
+2020.09.02 13:27:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:45 INFO  time: compiled iomonad in 0.67s
+2020.09.02 13:27:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:27:51 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:27:51 INFO  time: compiled iomonad in 3.75s
+2020.09.02 13:29:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:29:07 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:29:07 INFO  time: compiled iomonad in 4.15s
+2020.09.02 13:30:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:30:01 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:30:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:30:06 INFO  time: compiled iomonad in 1.14s
+2020.09.02 13:30:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:30:08 INFO  time: compiled iomonad in 0.72s
+2020.09.02 13:30:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:30:11 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:30:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:30:58 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:30:58 INFO  time: compiled iomonad in 3.1s
+2020.09.02 13:31:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:05 INFO  time: compiled iomonad in 1.1s
+2020.09.02 13:31:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:08 INFO  time: compiled iomonad in 0.69s
+2020.09.02 13:31:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:12 INFO  time: compiled iomonad in 0.66s
+2020.09.02 13:31:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:22 INFO  time: compiled iomonad in 0.68s
+2020.09.02 13:31:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:25 INFO  time: compiled iomonad in 0.22s
+2020.09.02 13:31:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:27 INFO  time: compiled iomonad in 0.77s
+2020.09.02 13:31:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:30 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:31:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:33 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:31:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:36 INFO  time: compiled iomonad in 1.04s
+2020.09.02 13:31:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:31:38 INFO  time: compiled iomonad in 0.65s
+2020.09.02 13:32:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:32:03 INFO  time: compiled iomonad in 0.71s
+2020.09.02 13:32:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:32:06 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:32:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:32:11 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:32:11 INFO  time: compiled iomonad in 2.82s
+2020.09.02 13:32:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 13:32:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 13:32:20 INFO  Starting debug proxy for [AppIO]
+2020.09.02 13:32:21 INFO  Listening for transport dt_socket at address: 57597
+2020.09.02 13:32:21 INFO  Trying to attach to remote debuggee VM localhost:57597 .
+2020.09.02 13:32:21 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 13:32:23 INFO  List((1.0,1), (2.0,2), (3.0,3), (4.0,4))
+2020.09.02 13:34:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:34:28 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:34:28 INFO  time: compiled iomonad in 5.94s
+2020.09.02 13:34:34 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:34:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.09.02 13:34:38 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:34:38 INFO  time: compiled iomonad in 4.33s
+2020.09.02 13:34:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:34:46 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:34:46 INFO  time: compiled iomonad in 4.21s
+2020.09.02 13:34:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:34:53 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:34:53 WARN  unexpected error processing the file /mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad/bloop-bsp-clients-classes/classes-Metals-5ascuSYOQxmhWI47whLEHw==/META-INF/semanticdb/src/main/scala/streamingIO/Process.scala.semanticdb
+com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+	at com.google.protobuf.InvalidProtocolBufferException.truncatedMessage(InvalidProtocolBufferException.java:84)
+	at com.google.protobuf.CodedInputStream$ArrayDecoder.pushLimit(CodedInputStream.java:1189)
+	at scalapb.LiteParser$.readMessage(LiteParser.scala:12)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:67)
+	at scala.meta.internal.semanticdb.TextDocuments$.merge(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:158)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:158)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scalapb.GeneratedMessageCompanion.parseFrom(GeneratedMessageCompanion.scala:174)
+	at scalapb.GeneratedMessageCompanion.parseFrom$(GeneratedMessageCompanion.scala:174)
+	at scala.meta.internal.semanticdb.TextDocuments$.parseFrom(TextDocuments.scala:57)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1041)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.09.02 13:34:53 INFO  time: compiled iomonad in 3.69s
+2020.09.02 13:35:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:05 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:35:05 INFO  time: compiled iomonad in 4.56s
+2020.09.02 13:35:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:09 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:35:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:11 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:35:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:14 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:35:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:16 INFO  time: compiled iomonad in 0.61s
+2020.09.02 13:35:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:19 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:35:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:21 INFO  time: compiled iomonad in 0.42s
+2020.09.02 13:35:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:25 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:35:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:28 INFO  time: compiled iomonad in 0.47s
+2020.09.02 13:35:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:30 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:35:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:34 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:35:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:35:37 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:36:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:36:43 INFO  time: compiled iomonad in 0.62s
+2020.09.02 13:36:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:36:46 INFO  time: compiled iomonad in 0.51s
+2020.09.02 13:37:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:37:14 INFO  time: compiled iomonad in 0.61s
+2020.09.02 13:37:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:37:17 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:37:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:37:20 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:37:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:37:41 INFO  time: compiled iomonad in 0.66s
+2020.09.02 13:37:43 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 1:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5715
+2020.09.02 13:37:43 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:37:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:37:46 INFO  time: compiled iomonad in 0.5s
+2020.09.02 13:39:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:17 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:39:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:20 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:39:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:22 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:39:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:25 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:39:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:29 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:39:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:32 INFO  time: compiled iomonad in 0.58s
+2020.09.02 13:39:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:35 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:39:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:38 INFO  time: compiled iomonad in 0.66s
+2020.09.02 13:39:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:39:57 INFO  time: compiled iomonad in 0.43s
+2020.09.02 13:40:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:40:00 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:40:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:40:03 INFO  time: compiled iomonad in 0.49s
+Sep 02, 2020 1:40:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5935
+2020.09.02 13:40:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:40:35 INFO  time: compiled iomonad in 0.42s
+2020.09.02 13:40:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:40:37 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:40:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:40:43 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:40:43 INFO  time: compiled iomonad in 3.68s
+2020.09.02 13:40:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:41:03 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:41:03 INFO  time: compiled iomonad in 3.92s
+2020.09.02 13:42:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:12 INFO  time: compiled iomonad in 0.35s
+2020.09.02 13:42:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:15 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:42:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:18 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:42:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:20 INFO  time: compiled iomonad in 0.6s
+2020.09.02 13:42:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:23 INFO  time: compiled iomonad in 0.28s
+2020.09.02 13:42:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:29 INFO  time: compiled iomonad in 0.55s
+2020.09.02 13:42:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:32 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:42:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:36 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:42:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:39 INFO  time: compiled iomonad in 0.36s
+2020.09.02 13:42:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:42 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:42:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:48 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:42:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:50 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:42:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:42:57 INFO  time: compiled iomonad in 0.43s
+2020.09.02 13:43:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:43:00 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:43:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:43:11 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:43:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:43:13 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:44:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:14 INFO  time: compiled iomonad in 0.36s
+2020.09.02 13:44:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:16 INFO  time: compiled iomonad in 0.36s
+2020.09.02 13:44:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:19 INFO  time: compiled iomonad in 0.38s
+2020.09.02 13:44:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:21 INFO  time: compiled iomonad in 0.32s
+2020.09.02 13:44:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:24 INFO  time: compiled iomonad in 0.35s
+2020.09.02 13:44:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:27 INFO  time: compiled iomonad in 0.25s
+2020.09.02 13:44:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:31 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:44:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:33 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:44:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:36 INFO  time: compiled iomonad in 0.41s
+Sep 02, 2020 1:44:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6431
+2020.09.02 13:44:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:39 INFO  time: compiled iomonad in 0.45s
+2020.09.02 13:44:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:42 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:44:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:50 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:44:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:53 INFO  time: compiled iomonad in 0.49s
+2020.09.02 13:44:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:56 INFO  time: compiled iomonad in 0.44s
+2020.09.02 13:44:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:44:58 INFO  time: compiled iomonad in 0.62s
+2020.09.02 13:50:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:50:48 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:50:48 INFO  time: compiled iomonad in 4.5s
+2020.09.02 13:53:38 INFO  Listening for transport dt_socket at address: 57834
+2020.09.02 13:53:38 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 13:55:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:04 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:55:04 INFO  time: compiled iomonad in 4.11s
+2020.09.02 13:55:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:14 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 13:55:14 INFO  time: compiled iomonad in 3.77s
+2020.09.02 13:55:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:19 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:55:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:22 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:55:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:25 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:55:28 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:28 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:5: stale bloop error: only traits and abstract classes can have declared but undefined members
+    def processFile[A,B]()
+    ^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:29 INFO  time: compiled iomonad in 0.29s
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:29 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:198:27: stale bloop error: illegal character '\uff1a'
+    def processFile[A,B](f：)
+                          ^
+2020.09.02 13:55:31 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala:199:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2020.09.02 13:55:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:32 INFO  time: compiled iomonad in 0.59s
+2020.09.02 13:55:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:34 INFO  time: compiled iomonad in 0.44s
+Sep 02, 2020 1:55:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6733
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[String,<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7156, 7156, 7180)
+2020.09.02 13:55:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:43 INFO  time: compiled iomonad in 0.54s
+2020.09.02 13:55:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:46 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:55:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:48 INFO  time: compiled iomonad in 0.56s
+2020.09.02 13:55:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:51 INFO  time: compiled iomonad in 0.57s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in () => <error>RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7181, 7183, 7184)
+2020.09.02 13:55:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:54 INFO  time: compiled iomonad in 0.4s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in (B, <error>)RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7181, 7181, 7193)
+2020.09.02 13:55:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:57 INFO  time: compiled iomonad in 0.3s
+2020.09.02 13:55:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:55:59 INFO  time: compiled iomonad in 0.52s
+2020.09.02 13:56:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:02 INFO  time: compiled iomonad in 0.63s
+2020.09.02 13:56:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:05 INFO  time: compiled iomonad in 0.46s
+2020.09.02 13:56:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:09 INFO  time: compiled iomonad in 0.53s
+2020.09.02 13:56:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:11 INFO  time: compiled iomonad in 0.41s
+2020.09.02 13:56:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:15 INFO  time: compiled iomonad in 0.93s
+2020.09.02 13:56:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:27 INFO  time: compiled iomonad in 0.4s
+Sep 02, 2020 1:56:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 02, 2020 1:56:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.09.02 13:56:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:29 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:56:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:31 INFO  time: compiled iomonad in 0.37s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7278)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7285)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7278)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[<error>]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7279)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[String]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7283)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[String]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7283)
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in Iterator[String]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7267, 7267, 7283)
+2020.09.02 13:56:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:37 INFO  time: compiled iomonad in 0.79s
+2020.09.02 13:56:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:40 INFO  time: compiled iomonad in 0.92s
+2020.09.02 13:56:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:43 INFO  time: compiled iomonad in 0.25s
+2020.09.02 13:56:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:47 INFO  time: compiled iomonad in 0.93s
+2020.09.02 13:56:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:50 INFO  time: compiled iomonad in 0.74s
+2020.09.02 13:56:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:54 INFO  time: compiled iomonad in 0.38s
+2020.09.02 13:56:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:56:57 INFO  time: compiled iomonad in 0.82s
+something's wrong: no file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala in streamingIO.Process[String,A]RangePosition(file:///mnt/d/Ubuntu/Code/iomonad/src/main/scala/streamingIO/Process.scala, 7288, 7288, 7305)
+2020.09.02 13:57:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:02 INFO  time: compiled iomonad in 0.84s
+2020.09.02 13:57:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:05 INFO  time: compiled iomonad in 0.31s
+2020.09.02 13:57:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:07 INFO  time: compiled iomonad in 0.26s
+2020.09.02 13:57:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:10 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:57:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:12 INFO  time: compiled iomonad in 0.78s
+2020.09.02 13:57:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:15 INFO  time: compiled iomonad in 0.23s
+2020.09.02 13:57:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:19 INFO  time: compiled iomonad in 0.33s
+Sep 02, 2020 1:57:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7264
+2020.09.02 13:57:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:22 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:57:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:26 INFO  time: compiled iomonad in 0.95s
+2020.09.02 13:57:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:29 INFO  time: compiled iomonad in 0.78s
+2020.09.02 13:57:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:42 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:57:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:45 INFO  time: compiled iomonad in 0.33s
+2020.09.02 13:57:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:49 INFO  time: compiled iomonad in 0.27s
+2020.09.02 13:57:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:51 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:57:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:57:59 INFO  time: compiled iomonad in 1.02s
+2020.09.02 13:58:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:01 INFO  time: compiled iomonad in 0.81s
+2020.09.02 13:58:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:04 INFO  time: compiled iomonad in 0.34s
+2020.09.02 13:58:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:07 INFO  time: compiled iomonad in 0.75s
+2020.09.02 13:58:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:10 INFO  time: compiled iomonad in 0.71s
+2020.09.02 13:58:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:14 INFO  time: compiled iomonad in 0.89s
+2020.09.02 13:58:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:18 INFO  time: compiled iomonad in 0.82s
+2020.09.02 13:58:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:21 INFO  time: compiled iomonad in 0.65s
+2020.09.02 13:58:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:26 INFO  time: compiled iomonad in 0.78s
+2020.09.02 13:58:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:30 INFO  time: compiled iomonad in 1.05s
+2020.09.02 13:58:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:32 INFO  time: compiled iomonad in 0.84s
+2020.09.02 13:58:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:35 INFO  time: compiled iomonad in 0.73s
+2020.09.02 13:58:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:38 INFO  time: compiled iomonad in 0.65s
+2020.09.02 13:58:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:42 INFO  time: compiled iomonad in 0.88s
+2020.09.02 13:58:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:45 INFO  time: compiled iomonad in 0.7s
+2020.09.02 13:58:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:48 INFO  time: compiled iomonad in 0.63s
+2020.09.02 13:58:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:58:50 INFO  time: compiled iomonad in 0.72s
+2020.09.02 13:59:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:59:33 INFO  time: compiled iomonad in 1.02s
+2020.09.02 13:59:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 13:59:35 INFO  time: compiled iomonad in 0.77s
+2020.09.02 14:00:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:28 INFO  time: compiled iomonad in 1.42s
+2020.09.02 14:00:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:30 INFO  time: compiled iomonad in 0.68s
+2020.09.02 14:00:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:33 INFO  time: compiled iomonad in 0.66s
+2020.09.02 14:00:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:36 INFO  time: compiled iomonad in 0.8s
+2020.09.02 14:00:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:38 INFO  time: compiled iomonad in 0.64s
+2020.09.02 14:00:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:43 INFO  time: compiled iomonad in 0.69s
+2020.09.02 14:00:45 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:45 INFO  time: compiled iomonad in 0.64s
+2020.09.02 14:00:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:48 INFO  time: compiled iomonad in 0.62s
+2020.09.02 14:00:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:52 INFO  time: compiled iomonad in 0.39s
+2020.09.02 14:00:55 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:00:55 INFO  time: compiled iomonad in 0.27s
+2020.09.02 14:00:57 INFO  compiling iomonad (1 scala source)
+Sep 02, 2020 2:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7928
+Sep 02, 2020 2:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7927
+2020.09.02 14:00:58 INFO  time: compiled iomonad in 1.33s
+2020.09.02 14:01:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:01:00 INFO  time: compiled iomonad in 0.67s
+2020.09.02 14:01:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:01:08 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 14:01:08 INFO  time: compiled iomonad in 4.45s
+2020.09.02 14:01:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:01:23 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 14:01:23 INFO  time: compiled iomonad in 5s
+Sep 02, 2020 2:02:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

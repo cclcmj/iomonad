@@ -8,7 +8,7 @@ object AppIO {
     unsafePerformIO(pureMain(args))(pool)
   }
   def pureMain(args:IndexedSeq[String]):IO[_] ={ 
-    val p = Process.meanLoop(Stream(1.0,2.0,3.0,4.0))
+    val p = Process.lift((a:Double)=>a).zipwithIndex (Stream(1.0,2.0,3.0,4.0))
     val c = for{
       _ <- Console.printLn(p.toList.toString)
     } yield ()
