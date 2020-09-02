@@ -3142,3 +3142,697 @@ WARNING: Unmatched cancel notification for request id 7927
 2020.09.02 14:01:23 INFO  time: compiled iomonad in 5s
 Sep 02, 2020 2:02:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.09.02 14:03:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:03:54 INFO  time: compiled iomonad in 0.41s
+2020.09.02 14:03:57 INFO  compiling iomonad (1 scala source)
+2020.09.02 14:04:02 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 14:04:02 INFO  time: compiled iomonad in 5.21s
+2020.09.02 15:46:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:24 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 15:46:24 INFO  time: compiled iomonad in 1.4s
+2020.09.02 15:46:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:28 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:46:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:30 INFO  time: compiled iomonad in 0.49s
+2020.09.02 15:46:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:33 INFO  time: compiled iomonad in 0.27s
+2020.09.02 15:46:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:38 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:46:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:40 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:46:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:44 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 15:46:44 INFO  time: compiled iomonad in 1.17s
+2020.09.02 15:46:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:47 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 15:46:47 INFO  time: compiled iomonad in 1.26s
+2020.09.02 15:46:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:46:53 INFO  time: compiled iomonad in 0.37s
+2020.09.02 15:47:02 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:11:46: stale bloop error: type mismatch;
+ found   : scala.collection.immutable.Stream[Double]
+ required: streamingIO.Process[Double,Double]
+    val p = Process.lift((d:Double)=>d*2)++ (Stream(1.0,2.0,3.0,4.0))
+                                             ^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 15:47:02 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:11:46: stale bloop error: type mismatch;
+ found   : scala.collection.immutable.Stream[Double]
+ required: streamingIO.Process[Double,Double]
+    val p = Process.lift((d:Double)=>d*2)++ (Stream(1.0,2.0,3.0,4.0))
+                                             ^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.02 15:47:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:04 INFO  time: compiled iomonad in 0.55s
+2020.09.02 15:47:07 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:07 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:47:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:18 INFO  time: compiled iomonad in 0.26s
+2020.09.02 15:47:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:21 INFO  time: compiled iomonad in 0.25s
+2020.09.02 15:47:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:24 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:47:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:26 INFO  time: compiled iomonad in 0.43s
+2020.09.02 15:47:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:32 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:47:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:40 INFO  time: compiled iomonad in 0.23s
+2020.09.02 15:47:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:47:48 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 15:47:48 INFO  time: compiled iomonad in 1.6s
+2020.09.02 15:48:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 15:48:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 15:48:16 INFO  Starting debug proxy for [AppIO]
+2020.09.02 15:48:16 INFO  Listening for transport dt_socket at address: 61654
+2020.09.02 15:48:16 INFO  Trying to attach to remote debuggee VM localhost:61654 .
+2020.09.02 15:48:16 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 15:48:16 INFO  List(2.0, 4.0, 6.0, 8.0)
+2020.09.02 15:49:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:49:54 INFO  time: compiled iomonad in 0.38s
+2020.09.02 15:50:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:50:31 INFO  time: compiled iomonad in 0.12s
+2020.09.02 15:50:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:50:34 INFO  time: compiled iomonad in 0.4s
+2020.09.02 15:50:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:50:38 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:50:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:50:40 INFO  time: compiled iomonad in 0.25s
+2020.09.02 15:50:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:50:46 INFO  time: compiled iomonad in 94ms
+2020.09.02 15:51:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:00 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:51:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:02 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:51:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:04 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:51:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:08 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:51:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:11 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:51:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:13 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:51:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:18 INFO  time: compiled iomonad in 0.12s
+2020.09.02 15:51:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:20 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:51:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:24 INFO  time: compiled iomonad in 0.14s
+2020.09.02 15:51:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:27 INFO  time: compiled iomonad in 0.12s
+2020.09.02 15:51:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:29 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:51:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:34 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:51:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:40 INFO  time: compiled iomonad in 0.12s
+2020.09.02 15:51:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:46 INFO  time: compiled iomonad in 0.14s
+2020.09.02 15:51:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:48 INFO  time: compiled iomonad in 0.13s
+2020.09.02 15:51:51 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:51:51 INFO  time: compiled iomonad in 96ms
+2020.09.02 15:52:00 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:00 INFO  time: compiled iomonad in 0.13s
+2020.09.02 15:52:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:03 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:13 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:17 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:19 INFO  time: compiled iomonad in 0.13s
+2020.09.02 15:52:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:32 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:34 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:43 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:43 INFO  time: compiled iomonad in 0.12s
+2020.09.02 15:52:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:50 INFO  time: compiled iomonad in 0.11s
+2020.09.02 15:52:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:52:59 INFO  time: compiled iomonad in 0.13s
+2020.09.02 15:53:02 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:02 INFO  time: compiled iomonad in 0.38s
+2020.09.02 15:53:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:11 INFO  time: compiled iomonad in 0.25s
+2020.09.02 15:53:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:15 INFO  time: compiled iomonad in 0.13s
+2020.09.02 15:53:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:20 INFO  time: compiled iomonad in 98ms
+2020.09.02 15:53:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:27 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:53:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:29 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:53:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:31 INFO  time: compiled iomonad in 0.3s
+2020.09.02 15:53:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:34 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:53:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:36 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:53:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:39 INFO  time: compiled iomonad in 0.42s
+2020.09.02 15:53:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:41 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:53:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:44 INFO  time: compiled iomonad in 0.25s
+2020.09.02 15:53:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:46 INFO  time: compiled iomonad in 0.33s
+2020.09.02 15:53:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:53 INFO  time: compiled iomonad in 0.1s
+2020.09.02 15:53:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:53:56 INFO  time: compiled iomonad in 0.26s
+2020.09.02 15:54:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:54:01 INFO  time: compiled iomonad in 0.24s
+2020.09.02 15:54:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:54:22 INFO  time: compiled iomonad in 0.14s
+2020.09.02 15:54:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 15:54:26 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 15:54:26 INFO  time: compiled iomonad in 1.17s
+2020.09.02 15:54:29 INFO  Listening for transport dt_socket at address: 61796
+2020.09.02 15:54:29 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 15:54:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 15:54:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 15:54:34 INFO  Starting debug proxy for [AppIO]
+2020.09.02 15:54:34 INFO  Listening for transport dt_socket at address: 61803
+2020.09.02 15:54:34 INFO  Trying to attach to remote debuggee VM localhost:61803 .
+2020.09.02 15:54:34 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 15:54:34 INFO  List(4.0, 5.0, 6.0)
+2020.09.02 16:03:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:03:27 INFO  time: compiled iomonad in 0.13s
+2020.09.02 16:03:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:03:29 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:03:36 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:03:38 WARN  there were 5 deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:03:38 INFO  time: compiled iomonad in 1.98s
+2020.09.02 16:04:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:04:55 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:04:55 INFO  time: compiled iomonad in 1.16s
+2020.09.02 16:05:09 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:09 INFO  time: compiled iomonad in 0.13s
+2020.09.02 16:05:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:11 INFO  time: compiled iomonad in 0.39s
+2020.09.02 16:05:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:13 INFO  time: compiled iomonad in 0.28s
+2020.09.02 16:05:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:18 INFO  time: compiled iomonad in 0.25s
+2020.09.02 16:05:22 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:22 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:05:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:24 INFO  time: compiled iomonad in 0.26s
+2020.09.02 16:05:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:27 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:05:28 INFO  time: compiled iomonad in 1.09s
+2020.09.02 16:05:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:05:39 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:05:39 INFO  time: compiled iomonad in 1.26s
+2020.09.02 16:05:42 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:05:42 INFO  Listening for transport dt_socket at address: 61862
+2020.09.02 16:05:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:05:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:05:46 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:05:46 INFO  Listening for transport dt_socket at address: 61869
+2020.09.02 16:05:46 INFO  Trying to attach to remote debuggee VM localhost:61869 .
+2020.09.02 16:05:46 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:05:46 INFO  List(2.0, 52.0, 53.0, 54.0)
+2020.09.02 16:06:27 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:06:28 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:06:28 INFO  time: compiled iomonad in 1.18s
+2020.09.02 16:06:32 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:06:33 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:06:33 INFO  time: compiled iomonad in 1.08s
+2020.09.02 16:06:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:06:41 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:06:41 INFO  time: compiled iomonad in 1.23s
+Sep 02, 2020 4:06:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9565
+2020.09.02 16:06:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+Sep 02, 2020 4:06:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.09.02 16:06:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:06:46 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:06:46 INFO  Listening for transport dt_socket at address: 61891
+2020.09.02 16:06:46 INFO  Trying to attach to remote debuggee VM localhost:61891 .
+2020.09.02 16:06:46 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:06:46 INFO  List(4.0)
+2020.09.02 16:07:34 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:07:35 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:07:35 INFO  time: compiled iomonad in 1.16s
+2020.09.02 16:07:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+Sep 02, 2020 4:07:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.09.02 16:07:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:07:44 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:07:44 INFO  Listening for transport dt_socket at address: 61903
+2020.09.02 16:07:44 INFO  Trying to attach to remote debuggee VM localhost:61903 .
+2020.09.02 16:07:44 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:07:44 INFO  List(4.0)
+2020.09.02 16:08:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:08:26 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:08:26 INFO  time: compiled iomonad in 1.56s
+2020.09.02 16:08:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:08:29 INFO  time: compiled iomonad in 0.41s
+2020.09.02 16:08:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:08:31 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:08:33 INFO  time: compiled iomonad in 1.05s
+2020.09.02 16:08:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:08:36 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:08:36 INFO  time: compiled iomonad in 1.25s
+2020.09.02 16:08:39 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:08:39 INFO  Listening for transport dt_socket at address: 61917
+2020.09.02 16:08:41 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:08:41 INFO  Listening for transport dt_socket at address: 61919
+2020.09.02 16:08:45 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:08:45 INFO  Listening for transport dt_socket at address: 61920
+2020.09.02 16:08:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:08:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:08:49 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:08:49 INFO  Listening for transport dt_socket at address: 61927
+2020.09.02 16:08:49 INFO  Trying to attach to remote debuggee VM localhost:61927 .
+2020.09.02 16:08:49 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:08:49 INFO  List(2.0ffffff)
+2020.09.02 16:09:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:09:12 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:09:14 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:09:15 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:09:15 INFO  time: compiled iomonad in 1.2s
+2020.09.02 16:09:17 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:09:17 INFO  Listening for transport dt_socket at address: 61936
+2020.09.02 16:09:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:09:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:09:21 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:09:21 INFO  Listening for transport dt_socket at address: 61945
+2020.09.02 16:09:21 INFO  Trying to attach to remote debuggee VM localhost:61945 .
+2020.09.02 16:09:21 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:09:21 INFO  List(2.02.0ffffff)
+2020.09.02 16:09:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:09:45 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:09:45 INFO  time: compiled iomonad in 1.25s
+2020.09.02 16:09:47 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:09:47 INFO  Listening for transport dt_socket at address: 61955
+2020.09.02 16:09:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:09:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:09:51 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:09:51 INFO  Listening for transport dt_socket at address: 61962
+2020.09.02 16:09:51 INFO  Trying to attach to remote debuggee VM localhost:61962 .
+2020.09.02 16:09:51 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:09:51 INFO  List(2.02.0ffffff, 2.03.0ffffff)
+2020.09.02 16:11:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:15 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:11:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:18 INFO  Deduplicating compilation of iomonad from bsp client 'Metals 0.9.3' (since 3h 22m 1.768s)
+2020.09.02 16:11:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:19 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:11:19 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:11:19 INFO  time: compiled iomonad in 0.88s
+2020.09.02 16:11:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:11:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:11:21 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:11:21 INFO  Listening for transport dt_socket at address: 61977
+2020.09.02 16:11:21 INFO  Trying to attach to remote debuggee VM localhost:61977 .
+2020.09.02 16:11:21 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:11:21 INFO  List(2.0, 4.0, 6.0)
+2020.09.02 16:11:25 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:11:25 INFO  Listening for transport dt_socket at address: 61979
+2020.09.02 16:11:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:35 INFO  time: compiled iomonad in 0.39s
+2020.09.02 16:11:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:38 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:11:41 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:11:41 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:11:42 INFO  time: compiled iomonad in 1.01s
+2020.09.02 16:11:46 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:11:46 INFO  Listening for transport dt_socket at address: 61989
+2020.09.02 16:11:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:11:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:11:50 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:11:50 INFO  Listening for transport dt_socket at address: 61997
+2020.09.02 16:11:50 INFO  Trying to attach to remote debuggee VM localhost:61997 .
+2020.09.02 16:11:50 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:11:50 INFO  List(2.02.0ffffff, 2.03.0ffffff)
+2020.09.02 16:13:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:13:27 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:13:27 INFO  time: compiled iomonad in 1.11s
+2020.09.02 16:13:31 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:13:32 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:13:32 INFO  time: compiled iomonad in 1.13s
+2020.09.02 16:13:34 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:13:34 INFO  Listening for transport dt_socket at address: 62013
+2020.09.02 16:13:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:13:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:13:37 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:13:38 INFO  Listening for transport dt_socket at address: 62022
+2020.09.02 16:13:38 INFO  Trying to attach to remote debuggee VM localhost:62022 .
+2020.09.02 16:13:38 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:13:38 INFO  List(2.04.0ffffff, 2.06.0ffffff)
+2020.09.02 16:14:33 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:33 INFO  time: compiled iomonad in 0.13s
+2020.09.02 16:14:35 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:35 INFO  time: compiled iomonad in 99ms
+2020.09.02 16:14:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:38 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:14:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:44 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:14:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:46 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:14:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:48 INFO  time: compiled iomonad in 0.39s
+2020.09.02 16:14:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:52 INFO  time: compiled iomonad in 0.26s
+2020.09.02 16:14:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:54 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:14:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:14:56 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:15:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:15:03 INFO  time: compiled iomonad in 0.28s
+2020.09.02 16:15:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:15:06 INFO  time: compiled iomonad in 99ms
+2020.09.02 16:15:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:15:26 INFO  time: compiled iomonad in 0.13s
+2020.09.02 16:15:31 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:15:31 INFO  Listening for transport dt_socket at address: 62059
+2020.09.02 16:16:24 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:24 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:16:26 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:26 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:16:28 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:28 INFO  time: compiled iomonad in 95ms
+2020.09.02 16:16:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:37 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:16:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:40 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:16:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:16:53 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:17:19 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:19 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:17:29 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:29 INFO  time: compiled iomonad in 0.4s
+2020.09.02 16:17:37 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:37 INFO  time: compiled iomonad in 0.27s
+2020.09.02 16:17:39 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:39 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:17:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:42 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:17:56 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:17:56 INFO  time: compiled iomonad in 0.25s
+2020.09.02 16:18:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:18:13 INFO  time: compiled iomonad in 0.41s
+2020.09.02 16:18:17 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:18:17 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:18:19 INFO  time: compiled iomonad in 1.03s
+2020.09.02 16:18:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:18:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:18:23 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:18:23 INFO  Listening for transport dt_socket at address: 62114
+2020.09.02 16:18:23 INFO  Trying to attach to remote debuggee VM localhost:62114 .
+2020.09.02 16:18:23 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:18:23 INFO  List(5, 7)
+2020.09.02 16:18:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:18:51 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:18:51 INFO  time: compiled iomonad in 1.14s
+2020.09.02 16:18:54 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:18:54 INFO  time: compiled iomonad in 0.4s
+2020.09.02 16:18:58 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:18:58 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:18:58 INFO  time: compiled iomonad in 0.97s
+2020.09.02 16:19:04 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:19:05 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:19:05 INFO  time: compiled iomonad in 1.2s
+2020.09.02 16:19:07 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:19:07 INFO  Listening for transport dt_socket at address: 62135
+2020.09.02 16:19:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:19:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:19:10 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:19:10 INFO  Listening for transport dt_socket at address: 62145
+2020.09.02 16:19:10 INFO  Trying to attach to remote debuggee VM localhost:62145 .
+2020.09.02 16:19:10 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:19:10 INFO  List(4.0f1f1f1f1f1f1, 6.0f1f1f1f1f1f1)
+2020.09.02 16:19:44 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:19:45 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:19:45 INFO  time: compiled iomonad in 1.25s
+2020.09.02 16:19:47 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:19:48 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:19:48 INFO  time: compiled iomonad in 1.16s
+2020.09.02 16:19:53 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:19:53 INFO  time: compiled iomonad in 0.42s
+2020.09.02 16:19:59 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:19:59 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:20:00 INFO  time: compiled iomonad in 1.07s
+2020.09.02 16:20:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:03 INFO  time: compiled iomonad in 0.39s
+2020.09.02 16:20:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:08 INFO  time: compiled iomonad in 0.26s
+2020.09.02 16:20:09 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: not found: value d
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^
+2020.09.02 16:20:09 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: type mismatch;
+ found   : Double
+ required: ? => ?
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^^^^^^^^
+2020.09.02 16:20:09 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: not found: value d
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^
+2020.09.02 16:20:09 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: type mismatch;
+ found   : Double
+ required: ? => ?
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^^^^^^^^
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: not found: value d
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:41: stale bloop error: type mismatch;
+ found   : Double
+ required: ? => ?
+    val f3 =  (s:String)=>Process.lift((d:Double))
+                                        ^^^^^^^^
+2020.09.02 16:20:10 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:51: stale bloop error: illegal character '\u300b'
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                  ^
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:51: stale bloop error: illegal character '\u300b'
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                  ^
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:50: stale bloop error: ')' expected but '=' found.
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                 ^
+2020.09.02 16:20:10 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:14:55: stale bloop error: ';' expected but ')' found.
+    val resultP = (p1 flatMap f1) (Stream(1.0,4.0,6.0))
+                                                      ^
+2020.09.02 16:20:10 INFO  time: compiled iomonad in 0.1s
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:51: stale bloop error: illegal character '\u300b'
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                  ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:50: stale bloop error: ')' expected but '=' found.
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                 ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:14:55: stale bloop error: ';' expected but ')' found.
+    val resultP = (p1 flatMap f1) (Stream(1.0,4.0,6.0))
+                                                      ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:51: stale bloop error: illegal character '\u300b'
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                  ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:50: stale bloop error: ')' expected but '=' found.
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                 ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:14:55: stale bloop error: ';' expected but ')' found.
+    val resultP = (p1 flatMap f1) (Stream(1.0,4.0,6.0))
+                                                      ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:51: stale bloop error: illegal character '\u300b'
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                  ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:13:50: stale bloop error: ')' expected but '=' found.
+    val f3 =  (s:String)=>Process.lift((d:Double)=》)
+                                                 ^
+2020.09.02 16:20:11 INFO  /mnt/d/Ubuntu/Code/iomonad/src/main/scala/Main.scala:14:55: stale bloop error: ';' expected but ')' found.
+    val resultP = (p1 flatMap f1) (Stream(1.0,4.0,6.0))
+                                                      ^
+2020.09.02 16:20:12 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:12 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:20:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:18 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:20:19 INFO  time: compiled iomonad in 1.07s
+2020.09.02 16:20:21 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:23 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:20:23 INFO  time: compiled iomonad in 1.58s
+2020.09.02 16:20:25 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:26 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:20:26 INFO  time: compiled iomonad in 1.24s
+2020.09.02 16:20:27 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:20:26 INFO  Listening for transport dt_socket at address: 62181
+2020.09.02 16:20:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:20:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:20:31 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:20:31 INFO  Listening for transport dt_socket at address: 62189
+2020.09.02 16:20:31 INFO  Trying to attach to remote debuggee VM localhost:62189 .
+2020.09.02 16:20:31 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:20:31 INFO  List(4.0f1f1f1f1f1f1, 6.0f1f1f1f1f1f1)
+2020.09.02 16:20:49 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:20:50 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:20:50 INFO  time: compiled iomonad in 1.17s
+2020.09.02 16:20:52 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:20:52 INFO  Listening for transport dt_socket at address: 62195
+2020.09.02 16:20:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:20:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:20:55 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:20:56 INFO  Listening for transport dt_socket at address: 62204
+2020.09.02 16:20:56 INFO  Trying to attach to remote debuggee VM localhost:62204 .
+2020.09.02 16:20:56 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:20:56 INFO  List(4.0f1f1f1f1f1f1, 6.0f1f1f1f1f1f1, 7.0f1f1f1f1f1f1)
+2020.09.02 16:21:03 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:21:03 INFO  time: compiled iomonad in 0.38s
+2020.09.02 16:21:05 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:21:05 INFO  time: compiled iomonad in 0.26s
+2020.09.02 16:21:08 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:21:08 INFO  Listening for transport dt_socket at address: 62211
+2020.09.02 16:21:08 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:21:09 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:21:09 INFO  time: compiled iomonad in 1.12s
+2020.09.02 16:21:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:21:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:21:13 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:21:13 INFO  Listening for transport dt_socket at address: 62223
+2020.09.02 16:21:13 INFO  Trying to attach to remote debuggee VM localhost:62223 .
+2020.09.02 16:21:13 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:21:13 INFO  List(6.0f2f2f2f2f2f2, 7.0f2f2f2f2f2f2)
+2020.09.02 16:22:15 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:22:16 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:22:16 INFO  time: compiled iomonad in 1.26s
+2020.09.02 16:22:17 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:22:16 INFO  Listening for transport dt_socket at address: 62233
+2020.09.02 16:22:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:22:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:22:21 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:22:21 INFO  Listening for transport dt_socket at address: 62240
+2020.09.02 16:22:21 INFO  Trying to attach to remote debuggee VM localhost:62240 .
+2020.09.02 16:22:21 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:22:21 INFO  Stream(6.0f2f2f2f2f2f2, <not computed>)
+2020.09.02 16:22:30 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:22:30 INFO  time: compiled iomonad in 0.41s
+2020.09.02 16:26:48 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:26:48 INFO  time: compiled iomonad in 0.42s
+2020.09.02 16:26:50 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:26:50 INFO  Listening for transport dt_socket at address: 62259
+Sep 02, 2020 4:26:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.WorkspaceErrorsException$.<clinit>(DebugProvider.scala)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$2(DebugProvider.scala:132)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2020.09.02 16:27:13 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:27:13 INFO  time: compiled iomonad in 0.13s
+2020.09.02 16:27:16 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:27:16 INFO  time: compiled iomonad in 0.24s
+2020.09.02 16:27:18 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:27:18 INFO  time: compiled iomonad in 0.14s
+2020.09.02 16:27:20 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:27:20 INFO  time: compiled iomonad in 0.42s
+2020.09.02 16:27:23 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:27:23 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:27:23 INFO  time: compiled iomonad in 0.97s
+2020.09.02 16:27:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:27:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:27:28 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:27:28 INFO  Listening for transport dt_socket at address: 62280
+2020.09.02 16:27:28 INFO  Trying to attach to remote debuggee VM localhost:62280 .
+2020.09.02 16:27:28 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:27:28 INFO  List(6.0f2f2f2f2f2f2, 7.0f2f2f2f2f2f2)
+2020.09.02 16:35:38 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:38 INFO  time: compiled iomonad in 0.45s
+2020.09.02 16:35:40 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:40 INFO  time: compiled iomonad in 0.26s
+2020.09.02 16:35:42 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:42 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:35:46 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:46 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:35:47 INFO  time: compiled iomonad in 1.01s
+2020.09.02 16:35:50 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:50 INFO  time: compiled iomonad in 0.44s
+2020.09.02 16:35:52 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:35:52 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:35:52 INFO  time: compiled iomonad in 1s
+2020.09.02 16:35:55 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:35:55 INFO  Listening for transport dt_socket at address: 62318
+2020.09.02 16:35:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:35:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:35:59 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:35:59 INFO  Listening for transport dt_socket at address: 62325
+2020.09.02 16:35:59 INFO  Trying to attach to remote debuggee VM localhost:62325 .
+2020.09.02 16:35:59 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:35:59 INFO  List(1.0p1p1p1p1p14.0f1f1f1f1f1f16.0f2f2f2f2f2f2, 1.0p1p1p1p1p14.0f1f1f1f1f1f17.0f2f2f2f2f2f2)
+2020.09.02 16:50:06 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:50:06 INFO  Listening for transport dt_socket at address: 62367
+2020.09.02 16:50:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:50:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:50:10 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:50:10 INFO  Listening for transport dt_socket at address: 62375
+2020.09.02 16:50:10 INFO  Trying to attach to remote debuggee VM localhost:62375 .
+2020.09.02 16:50:10 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:50:10 INFO  List(1.0p1p1p1p1p14.0f1f1f1f1f1f16.0f2f2f2f2f2f2, 1.0p1p1p1p1p14.0f1f1f1f1f1f17.0f2f2f2f2f2f2)
+2020.09.02 16:50:16 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:50:16 INFO  Listening for transport dt_socket at address: 62377
+2020.09.02 16:50:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:50:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:50:20 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:50:20 INFO  Listening for transport dt_socket at address: 62384
+2020.09.02 16:50:20 INFO  Trying to attach to remote debuggee VM localhost:62384 .
+2020.09.02 16:50:20 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:50:20 INFO  List(1.0p1p1p1p1p14.0f1f1f1f1f1f16.0f2f2f2f2f2f2, 1.0p1p1p1p1p14.0f1f1f1f1f1f17.0f2f2f2f2f2f2)
+2020.09.02 16:50:29 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:50:29 INFO  Listening for transport dt_socket at address: 62387
+2020.09.02 16:51:01 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:51:01 INFO  time: compiled iomonad in 0.11s
+2020.09.02 16:51:06 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:51:06 INFO  time: compiled iomonad in 0.12s
+2020.09.02 16:51:11 INFO  compiling iomonad (1 scala source)
+2020.09.02 16:51:12 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.09.02 16:51:12 INFO  time: compiled iomonad in 1.11s
+2020.09.02 16:51:14 INFO  Deduplicating compilation of iomonad from bsp client 'Metals 0.9.3' (since 4h 1m 58.146s)
+2020.09.02 16:51:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:51:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:51:16 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:51:16 INFO  Listening for transport dt_socket at address: 62410
+2020.09.02 16:51:16 INFO  Trying to attach to remote debuggee VM localhost:62410 .
+2020.09.02 16:51:16 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:51:16 INFO  List(1.0p1p1p1p1p14.0f1f1f1f1f1f16.0f2f2f2f2f2f2, 1.0p1p1p1p1p14.0f1f1f1f1f1f17.0f2f2f2f2f2f2)
+2020.09.02 16:51:25 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:51:25 INFO  Listening for transport dt_socket at address: 62413
+2020.09.02 16:51:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-server.trace.json
+2020.09.02 16:51:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/vvvkvmj/.cache/metals/dap-client.trace.json
+2020.09.02 16:51:29 INFO  Starting debug proxy for [AppIO]
+2020.09.02 16:51:29 INFO  Listening for transport dt_socket at address: 62420
+2020.09.02 16:51:29 INFO  Trying to attach to remote debuggee VM localhost:62420 .
+2020.09.02 16:51:29 INFO  Attaching to debuggee VM succeeded.
+2020.09.02 16:51:29 INFO  List(1.0p1p1p1p1p14.0f1f1f1f1f1f16.0f2f2f2f2f2f2, 1.0p1p1p1p1p14.0f1f1f1f1f1f17.0f2f2f2f2f2f2)
+2020.09.02 16:51:36 INFO  Canceling debug proxy for [AppIO]
+2020.09.02 16:51:36 INFO  Listening for transport dt_socket at address: 62422
