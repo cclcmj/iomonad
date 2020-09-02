@@ -2,29 +2,29 @@
     "version": "1.4.0",
     "project": {
         "name": "iomonad-test",
-        "directory": "/home/codespace/workspace/iomonad",
-        "workspaceDir": "/home/codespace/workspace/iomonad",
+        "directory": "/mnt/d/Ubuntu/Code/iomonad",
+        "workspaceDir": "/mnt/d/Ubuntu/Code/iomonad",
         "sources": [
-            "/home/codespace/workspace/iomonad/src/test/scala-2.13",
-            "/home/codespace/workspace/iomonad/src/test/scala",
-            "/home/codespace/workspace/iomonad/src/test/java",
-            "/home/codespace/workspace/iomonad/target/scala-2.13/src_managed/test"
+            "/mnt/d/Ubuntu/Code/iomonad/src/test/scala-2.13",
+            "/mnt/d/Ubuntu/Code/iomonad/src/test/scala",
+            "/mnt/d/Ubuntu/Code/iomonad/src/test/java",
+            "/mnt/d/Ubuntu/Code/iomonad/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "iomonad"
         ],
         "classpath": [
-            "/home/codespace/workspace/iomonad/.bloop/iomonad/scala-2.13/classes",
-            "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
-            "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0.jar",
-            "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0.jar",
-            "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0.jar"
+            "/mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad/scala-2.13/classes",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0.jar"
         ],
-        "out": "/home/codespace/workspace/iomonad/.bloop/iomonad",
-        "classesDir": "/home/codespace/workspace/iomonad/.bloop/iomonad/scala-2.13/test-classes",
+        "out": "/mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad",
+        "classesDir": "/mnt/d/Ubuntu/Code/iomonad/.bloop/iomonad/scala-2.13/test-classes",
         "resources": [
-            "/home/codespace/workspace/iomonad/src/test/resources",
-            "/home/codespace/workspace/iomonad/target/scala-2.13/resource_managed/test"
+            "/mnt/d/Ubuntu/Code/iomonad/src/test/resources",
+            "/mnt/d/Ubuntu/Code/iomonad/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -34,13 +34,13 @@
                 
             ],
             "jars": [
-                "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
-                "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
-                "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
-                "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
-                "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+                "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
             ],
-            "analysis": "/home/codespace/workspace/iomonad/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "analysis": "/mnt/d/Ubuntu/Code/iomonad/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -97,9 +97,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/local/sdkman/candidates/java/11.0.8.hs-adpt",
+                "home": "/mnt/d/Ubuntu/Env/jdk1.8.0_261/jre",
                 "options": [
-                    "-Duser.dir=/home/codespace/workspace/iomonad"
+                    "-Duser.dir=/mnt/d/Ubuntu/Code/iomonad"
                 ]
             },
             "mainClass": [
@@ -116,12 +116,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
                         }
                     ]
                 },
@@ -133,12 +133,12 @@
                     "artifacts": [
                         {
                             "name": "cats-core_2.13",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0.jar"
                         },
                         {
                             "name": "cats-core_2.13",
                             "classifier": "sources",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0-sources.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.0.0/cats-core_2.13-2.0.0-sources.jar"
                         }
                     ]
                 },
@@ -150,12 +150,12 @@
                     "artifacts": [
                         {
                             "name": "cats-macros_2.13",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0.jar"
                         },
                         {
                             "name": "cats-macros_2.13",
                             "classifier": "sources",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0-sources.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.0.0/cats-macros_2.13-2.0.0-sources.jar"
                         }
                     ]
                 },
@@ -167,12 +167,12 @@
                     "artifacts": [
                         {
                             "name": "cats-kernel_2.13",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0.jar"
                         },
                         {
                             "name": "cats-kernel_2.13",
                             "classifier": "sources",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0-sources.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.0.0/cats-kernel_2.13-2.0.0-sources.jar"
                         }
                     ]
                 },
@@ -184,12 +184,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
                         }
                     ]
                 }
