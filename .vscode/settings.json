@@ -1,5 +1,4 @@
 {
-    "commentTranslate.targetLanguage": "zh-CN",
     "files.watcherExclude": {
         "**/target": true
     }

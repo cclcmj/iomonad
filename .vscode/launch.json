@@ -6,9 +6,9 @@
     "configurations": [
         {
             "type": "scala",
-            "name": "Debug Main",
+            "name": "Debug ",
             "request": "launch",
-            "mainClass": "AppIO",
+            "mainClass": "",
             "args": []
         }
     ]

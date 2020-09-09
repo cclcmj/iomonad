@@ -15,15 +15,15 @@
             
         ],
         "classpath": [
-            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.3-23-550c6c0a/sbt-bloop-1.4.3-23-550c6c0a.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.3.13/sbt-1.3.13.jar",
             "/home/vvvkvmj/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.4/sbt-bloop-1.4.4.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.3.13/main_2.12-1.3.13.jar",
+            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.3.4/io_2.12-1.3.4.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
-            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.3.13/main_2.12-1.3.13.jar",
-            "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.3.4/io_2.12-1.3.4.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.3.13/logic_2.12-1.3.13.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.3.13/actions_2.12-1.3.13.jar",
             "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.3.13/main-settings_2.12-1.3.13.jar",
@@ -191,7 +191,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/mnt/d/Ubuntu/Env/jdk1.8.0_261/jre",
+                "home": "/mnt/d/Ubuntu/Env/jdk-11.0.8",
                 "options": [
                     "-Duser.dir=/mnt/d/Ubuntu/Code/iomonad/project"
                 ]
@@ -205,12 +205,12 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.4.3-23-550c6c0a",
+                    "version": "1.4.4",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.3-23-550c6c0a/sbt-bloop-1.4.3-23-550c6c0a.jar"
+                            "path": "/home/vvvkvmj/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.4/sbt-bloop-1.4.4.jar"
                         }
                     ]
                 },
