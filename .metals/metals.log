@@ -97,3 +97,4 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 Sep 09, 2020 2:05:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
 2020.09.09 14:07:42 INFO  compiling iomonad (1 scala source)
+2020.09.09 14:07:50 INFO  time: compiled iomonad in 7.99s
