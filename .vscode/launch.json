@@ -6,7 +6,7 @@
     "configurations": [
         {
             "type": "scala",
-            "name": "Debug ",
+            "name": "Debug",
             "request": "launch",
             "mainClass": "",
             "args": []

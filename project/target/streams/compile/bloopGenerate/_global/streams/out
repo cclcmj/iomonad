@@ -1,0 +1,4 @@
+[debug] [iomonad-build] Classpath dependencies List()
+[debug] [iomonad-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'iomonad-build' to '/mnt/d/Ubuntu/Code/iomonad/project/.bloop/iomonad-build.json'
+[success] Generated .bloop/iomonad-build.json
