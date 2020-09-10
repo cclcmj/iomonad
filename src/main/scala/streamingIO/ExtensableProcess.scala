@@ -42,4 +42,5 @@ object ExtensableProcess{
     case object End extends Exception
     //这个Exception强制结束，后面用得到,这个状态此后需要清理任何使用过的资源
     case object Kill extends Exception
+    //test proxy
 }
