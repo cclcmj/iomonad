@@ -53,6 +53,9 @@ trait EProcess[F[_],O]{
             case x => recv(x) 
         }
     }
+    //重复
+    def repeat:EProcess[F,O] = 
+        this ++ this.repeat
 }
 object EProcess{
     case class Await[F[_],A,O](
@@ -84,7 +87,7 @@ object EProcess{
     }
     def eval_[F[_],A,B](a:F[A]):EProcess[F,B] = 
         drain(eval[F,A](a))
-    def drain[O2](p:EProcess[F,O]):EProcess[F,O2] = p match {
+    def drain[F[_],O,O2](p:EProcess[F,O]):EProcess[F,O2] = p match {
         case Halt(e) => Halt(e)
         case Emit(head,tail) => drain(tail)
         case Await(req,recv) => Await(req,recv andThen (drain(_)))
@@ -139,12 +142,12 @@ object EProcess{
                 src=>
                     lazy val iter = src.getLines()
                     def step = if(iter.hasNext) Some(iter.next()) else None
-                    lazy val lines :EProcess[IO,String] = eval(IO(step)).flatMap{
+                    lazy val lines :EProcess[IO,String] = eval[IO,Option[String]](IO(step)).flatMap{
                         case None => Halt(End)
                         case Some(line) => Emit(line,lines)
                     }
                     lines
             }
-            {src => eval_(IO(src.close))}
+            {src => eval_[IO,Unit,String](IO(src.close))}
 
 }
