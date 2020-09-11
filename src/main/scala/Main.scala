@@ -8,11 +8,16 @@ object AppIO {
     unsafePerformIO(pureMain(args))(pool)
   }
   def pureMain(args:IndexedSeq[String]):IO[_] ={ 
-    val p1 = Process.lift((d:Double)=>d.toString()+"p1p1p1p1p1") 
-    val f1 =  (s:String)=>Process.lift((d:Double)=>s+d.toString+"f1f1f1f1f1f1")
-    val f2 =  (s:String)=>Process.lift((d:Double)=>s+d.toString+"f2f2f2f2f2f2")
-    val resultP = (p1 flatMap f1 flatMap f2) (Stream(1.0,4.0,6.0,7.0))
-    val c =  Console.printLn(resultP.toList.toString())
-    Console.translate(c)(Console.consoleToPar)
+    // val p1 = Process.lift((d:Double)=>d.toString()+"p1p1p1p1p1") 
+    // val f1 =  (s:String)=>Process.lift((d:Double)=>s+d.toString+"f1f1f1f1f1f1")
+    // val f2 =  (s:String)=>Process.lift((d:Double)=>s+d.toString+"f2f2f2f2f2f2")
+    // val resultP = (p1 flatMap f1 flatMap f2) (Stream(1.0,4.0,6.0,7.0))
+    // val c =  Console.printLn(resultP.toList.toString())
+    // Console.translate(c)(Console.consoleToPar)
+    for{
+      seq <- ExtensableProcess.runLog(ExtensableProcess.p)
+      seq1 = seq.map(i=>i++"\n")
+      _ <- Console.translate(Console.printLn(seq1.mkString ))(Console.consoleToPar)
+    }yield ()
   }
 }
