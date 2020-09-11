@@ -15,7 +15,7 @@ object AppIO {
     // val c =  Console.printLn(resultP.toList.toString())
     // Console.translate(c)(Console.consoleToPar)
     for{
-      seq <- ExtensableProcess.runLog(ExtensableProcess.p)
+      seq <- EProcess.runLog(EProcess.p)
       seq1 = seq.map(i=>i++"\n")
       _ <- Console.translate(Console.printLn(seq1.mkString ))(Console.consoleToPar)
     }yield ()
