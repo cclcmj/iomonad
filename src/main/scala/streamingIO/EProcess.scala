@@ -79,6 +79,10 @@ object EProcess{
         try p
         catch{case e:Throwable =>Halt(e)}
     def await[F[_],A,O](req:F[A])(recv:Either[Throwable,A]=>EProcess[F,O]):EProcess[F,O] = Await(req,recv)
+    def emit[F[_],O](
+        head: O,
+        tail: EProcess[F,O] = Halt[F,O](End)): EProcess[F,O] =
+      Emit(head, tail)
     //通用组合子eval将F[A]升格为仅传递（emit）F[A]结果的Process
     //eval_升格一个F[A]为无传递值的EProcess
     def eval[F[_],A](a:F[A]):EProcess[F,A] = await[F,A,A](a){
@@ -87,6 +91,9 @@ object EProcess{
     }
     def eval_[F[_],A,B](a:F[A]):EProcess[F,B] = 
         drain(eval[F,A](a))
+    /*
+     *目的是忽略Process的所有输出？？？？
+     */
     def drain[F[_],O,O2](p:EProcess[F,O]):EProcess[F,O2] = p match {
         case Halt(e) => Halt(e)
         case Emit(head,tail) => drain(tail)

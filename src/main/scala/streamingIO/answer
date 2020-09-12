@@ -852,7 +852,7 @@ object GeneralizedStreamTransducers {
 
     type Process1[I,O] = Process[Is[I]#f, O]
 
-    /* Some helper functions to improve type inference. */
+    /* Some helper functions to improve type inference. */sink
 
     def await1[I,O](
         recv: I => Process1[I,O],

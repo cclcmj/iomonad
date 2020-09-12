@@ -14,10 +14,11 @@ object AppIO {
     // val resultP = (p1 flatMap f1 flatMap f2) (Stream(1.0,4.0,6.0,7.0))
     // val c =  Console.printLn(resultP.toList.toString())
     // Console.translate(c)(Console.consoleToPar)
-    for{
-      seq <- EProcess.runLog(EProcess.p)
-      seq1 = seq.map(i=>i++"\n")
-      _ <- Console.translate(Console.printLn(seq1.mkString ))(Console.consoleToPar)
-    }yield ()
+    // for{
+    //   seq <- EProcess.runLog(EProcess.p)
+    //   seq1 = seq.map(i=>i++"\n")
+    //   _ <- Console.translate(Console.printLn(seq1.mkString ))(Console.consoleToPar)
+    // }yield ()
+    EProcess.runLog(Sink.converter)
   }
 }
